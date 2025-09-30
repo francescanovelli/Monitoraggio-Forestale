@@ -47,3 +47,5 @@ return composite;
 // per vedere se funziona devo usare:
 var composite2025 = calculateComposite(2025, "06-01", "08-31", 70, "B4", "B3", "B2", 0, 3000);
 
+// Serve per per rendere la funzione open access
+exports.calculateComposite = calculateComposite;
