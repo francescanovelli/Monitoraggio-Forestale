@@ -2,11 +2,6 @@
 //  https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/composites/ 
 
 
-// .lt --> less than
-// .gt --> greater than
-// + --> in javascripts unisce le stringhe
-
-
 // creare un interfaccia utente
 var year = 2022; 
 // var è la funzione year in nome della variabile e 2022 è il valore della variabile
