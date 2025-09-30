@@ -4,6 +4,7 @@
 
 // .lt --> less than
 // .gt --> greater than
+// + --> in javascripts unisce le stringhe
 
 
 // creare un interfaccia utente
@@ -22,4 +23,6 @@ var max = 3000;
 // codice per caricare una collezione di immagini, il secondo rigo serve per filtrare le immagini della collezione
 var S2 = ee.ImageCollection('COPERNICUS/S2_SR_HARMONIZED')
         .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', cloudsTh)) // 'cloudy-pixel-percentage è una funzione della mia collezione di immagini
+        .filterDate("2025-06-01", "2025-08-01");
+
 
