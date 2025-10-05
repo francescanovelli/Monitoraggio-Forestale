@@ -5,7 +5,7 @@ In questo modo, l'utente può scegliere la visualizzazione più adatta al propri
 
 L'utente potrà quindi scegliere tra bande diverse di Sentinel-2 e selezionare il periodo di interesse.
 
-## Bande
+## Bande e indici
 NDWI serve per calcolare monitorare aridità e la gestione dell'irrigazione.
 
 green + NIR lo uso per trovare i corpi di acqua. 
