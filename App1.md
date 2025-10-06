@@ -21,7 +21,7 @@ green + NIR lo uso per trovare i corpi di acqua.
 | NDMI (Normalized Difference Moisture Index)	| (NIR - SWIR) / (NIR + SWIR)	| -1 a +1	| -0.5 a +1 (valori sotto 0 indicano terreno secco o assenza di umidità) |Umidità della vegetazione o del suolo
 | NDBI (Normalized Difference Built-up Index)	|(SWIR - NIR) / (SWIR + NIR)	| -1 a +1	| -0.5 a +0.8 (valori positivi indicano built-up o aree urbanizzate) |Aree costruite |Aree ubranizzate o costruite
 | NDVI (Normalized Difference Vegetation Index)	|(NIR - RED) / (NIR + RED)	| -1 a +1	| -0.2 a +1 (valori sotto 0 indicano acqua o suolo nudo; valori sopra 0.3 vegetazione) |Vegetazione
-| NDWI (Normalized Difference Water Index)	|(NIR - SWIR) / (NIR + SWIR)	| -1 a +1	| -0.5 a +1 (valori elevati indicano presenza acqua) |Presenza di acqua o contenuto idrico nella vegetazione e nel suolo
+| NDWI (Normalized Difference Water Index)	|(NIR - SWIR) / (NIR + SWIR)	| -1 a +1	| -0.5 a +1 (valori elevati indicano presenza acqua) |Presenza di acqua
 
 ``` js
 // Creo la mia collezione, con un filtro nuvole e un filtro data
