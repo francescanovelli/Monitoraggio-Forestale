@@ -25,3 +25,28 @@ scale: 30
 
 print(training.first());
 print(training.size());
+
+// Create an RF classifier with custom parameters.
+var classifier = ee.Classifier.smileRandomForest({numberOfTrees:10})
+// 
+// Train the classifier.
+var trained = classifier.train(training, 'class', bands);
+
+// Classifico l'immagine
+var classified = predictors.classify(trained);
+
+// // Faccio la mia immagine classificata
+Map.setCenter(-62.836, -9.2399, 11);
+Map.addLayer(predictors, 
+{bands: ['red', 'green', 'blue'], min:0, max:2500}, "RGB BAP");
+// Map.addLayer(polygons, {}, 'training polygons');
+Map.addLayer(classified,
+           {min: 0, max: 1, palette: ['green', 'red']},
+           'deforestation');
+
+
+
+
+
+
+
