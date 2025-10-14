@@ -1,1 +1,27 @@
+// Preparo i dati di riferiemnto
+nfi_gsv = nfi_gsv.filterBounds(geometry); // filtro l'intero dataset ad un solo poligono
+Map.addLayer(nfi_gsv)
+
+// Preparo i predittori, in una cartella ho delle funzione che calcola il medoid usato per sentinel-2
+var library = require("users/sfrancini/speciesClassification:library"); 
+
+// Creo un medoid composite
+var medoidVariables = library.medoidComposite("2018-06-15", "2018-08-15", "2018");
+Map.addLayer(medoidVariables, {bands: ["2018red", "2018green", "2018blue"], min:0, max: 3000})
+
+// Utilizzo la regressione lineare per capire se esiste una correlazione tra due variabili 
+// Temperature, calcola la temperatra media in questi anni toglieno i 273.15 gradi kelvin per avere i °C
+var temperature = c.filter(ee.Filter.calendarRange(2010, 2020, "year"))
+.select("mean_2m_air_temperature").mean().subtract(273.15);
+// Precipitation, mediana della media delle precipitazioni
+var precipitation = c.filter(ee.Filter.calendarRange(2010, 2020, "year"))
+.select("total_precipitation").median();
+
+// Unisco le immagini creando i predittori contendendo tutte le mie variabili indipendenti
+var predictors = ee.Image.cat([medoidVariables, dem.select(0).mean(),temperature,precipitation])
+                               .addBands(ee.Image.pixelCoordinates('EPSG:4326')) // qui aggiungo le bande dove per ogni pixel mi da le coordinate
+                               .float();
+
+
+
 
