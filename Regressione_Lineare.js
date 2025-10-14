@@ -129,13 +129,3 @@ var histogram = ui.Chart.feature.histogram({
   colors: ['#1b9e77']});
 
 print(histogram);
-
-
-
-
-
-
-
-
-
-
