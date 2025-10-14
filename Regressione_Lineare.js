@@ -60,4 +60,82 @@ var q = ee.Number(fit.get("offset"));
 print(m)
 print(q)
 
+// Faccio la predizione usando i coefficienti della regressione calcolati
+var predictedGSVmap = medoidVariables.select("2018NDVI").multiply(m).add(q);
+Map.addLayer(predictedGSVmap.clip(geometry), {min:0, max:500, palette: ["white", "yellow", "lightgreen", "green", "darkgreen"]})
+
+// Calcolo la radice quadrata degli scarti quadratici (RMSE) e visualizzo
+var trainingDataset_loaded_withPredictions = trainingDataset_loaded.map(function(f){
+  var NDVI = ee.Number(f.get("2018NDVI"));
+  var Vapv_ha = ee.Number(f.get("Vapv_ha"));
+  var prediction = NDVI.multiply(m).add(q);
+  var scarto = Vapv_ha.subtract(prediction) // scarto
+  var scarto2 = scarto.pow(2) // scarto quadratico
+  return f.set("prediction", prediction).set("scarto", scarto).set("scarto2", scarto2)})
+
+print(trainingDataset_loaded_withPredictions)
+
+// media degli scarti che deve essere zero o vicino
+var mediaScarti = trainingDataset_loaded_withPredictions.aggregate_mean('scarto');
+print('mediaScarti:', mediaScarti.round());
+
+// Calcolo sia im MSE che il RMSE
+var mse = trainingDataset_loaded_withPredictions.aggregate_mean('scarto2');
+print('MSE:', mse);
+var rmse = ee.Number(mse).sqrt();
+print('RMSE:', rmse);
+
+
+// Codici per dei grafici
+// Scatterplot
+var chart_NDVIvsVapv = ui.Chart.feature.byFeature({
+  features: trainingDataset_loaded_withPredictions,
+  xProperty: '2018NDVI',
+  yProperties: ['Vapv_ha']})
+.setChartType('ScatterChart')
+.setOptions({
+  title: 'Scatter plot tra x e y',
+  hAxis: {title: 'NDVI'},
+  vAxis: {title: 'Vapv_ha'},
+  pointSize: 6,
+  colors: ['#1f77b4']});
+
+print(chart_NDVIvsVapv);
+
+// Scatterplot
+var chart = ui.Chart.feature.byFeature({
+  features: trainingDataset_loaded_withPredictions,
+  xProperty: 'prediction',
+  yProperties: ['Vapv_ha']})
+.setChartType('ScatterChart')
+.setOptions({
+  title: 'Scatter plot tra x e y',
+  hAxis: {title: 'prediction'},
+  vAxis: {title: 'reference'},
+  pointSize: 6,
+  colors: ['#1f77b4']});
+
+print(chart);
+
+// Istogramma
+var histogram = ui.Chart.feature.histogram({
+  features: trainingDataset_loaded_withPredictions,
+  property: 'scarto',
+  minBucketWidth: 50  // ampiezza dei bin})
+.setOptions({
+  title: 'Distribuzione scarti',
+  hAxis: {title: 'scarti'},
+  vAxis: {title: 'Frequenza'},
+  colors: ['#1b9e77']});
+
+print(histogram);
+
+
+
+
+
+
+
+
+
 
