@@ -87,7 +87,7 @@ print('RMSE:', rmse);
 
 
 // Codici per dei grafici
-// Scatterplot
+// Scatterplot, Volume Vs. NDVI
 var chart_NDVIvsVapv = ui.Chart.feature.byFeature({
   features: trainingDataset_loaded_withPredictions,
   xProperty: '2018NDVI',
@@ -102,7 +102,7 @@ var chart_NDVIvsVapv = ui.Chart.feature.byFeature({
 
 print(chart_NDVIvsVapv);
 
-// Scatterplot
+// Scatterplot, Volume misurato Vs. Volume predetto
 var chart = ui.Chart.feature.byFeature({
   features: trainingDataset_loaded_withPredictions,
   xProperty: 'prediction',
