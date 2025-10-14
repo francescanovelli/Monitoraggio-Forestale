@@ -23,5 +23,41 @@ var predictors = ee.Image.cat([medoidVariables, dem.select(0).mean(),temperature
                                .float();
 
 
+// STEP 1 *******************************************************************************************************
+
+// Creo un dataset di training che combina le mie variabili indipendenti (predictors) 
+// con quelle dipendente (nfi gsv)
+// Qui gli dico che voglio solo dei predittori precisi per ogni regione
+var trainingDataset = predictors.reduceRegions({
+collection: nfi_gsv, // dataset da cui prendo i valori
+reducer: ee.Reducer.first(), // riduttore
+scale: 20 // scala di precisione (20m)
+});
+
+print(trainingDataset.first())
+
+// Salvo il mio dataset, in questo caso ho una tabella
+Export.table.toAsset({
+collection: trainingDataset, 
+description: "trainingDataset", 
+assetId: "projects/planetunifi/assets/UNIBO/trainingDataset"
+})
+
+
+// STEP 2 *******************************************************************************************************
+
+Map.addLayer(trainingDataset_loaded)
+print(trainingDataset_loaded)
+
+// Calcolo m and q
+var fit = trainingDataset_loaded.reduceColumns({
+  reducer: ee.Reducer.linearFit(),
+  selectors: ['2018NDVI', 'Vapv_ha']});
+print(fit)
+
+var m = ee.Number(fit.get("scale"));
+var q = ee.Number(fit.get("offset"));
+print(m)
+print(q)
 
 
