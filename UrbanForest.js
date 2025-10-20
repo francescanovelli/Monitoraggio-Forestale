@@ -28,9 +28,71 @@ var geometry =
 
 
 // Definisco i parametri di input
-var mmu = 5; // minimum mapping unit
-var pixelsDist = 100; // 1km
+var mmu = 5; // minimo numero di pixel che le aree verdi avranno
+// se io metto un parametro molto piccolo evito che aree possano essere erronemante classificate come alberi
+var pixelsDist = 100; // 1km, 10 metri è la mia risoluzione per 100 sono 1000m
 var outFolder = "outputFolder"
+
+// Maschera per la foresta
+var forest = wc.first().eq(10); // do alla mia variabile il valore dei pixel
+Map.addLayer(forest, {}, "forest");
+
+//Rimuovo tutti gli oggetti più piccoli di mmu
+var smallObj = forest.connectedPixelCount(mmu, false); // inserendo false quindi guardo solo i pixel a contatto con il mio pixel
+Map.addLayer(smallObj, {}, "smallObj");
+
+//Faccio una maschera per la vegetazione, in questo modo tolgo gli oggetti piccoli
+var isNotSmall = smallObj.gte(mmu);
+Map.addLayer(isNotSmall, {}, "isNotSmall");
+
+var veg = forest.updateMask(isNotSmall).unmask(0);
+Map.addLayer(veg, {}, "veg");
+
+// Calcolo la distanza dalel zone verdi
+var dist = veg.fastDistanceTransform(pixelsDist, "pixels",  'manhattan').unmask(pixelsDist); 
+// primo argomento la distanza
+// secondo argomento unità di misura
+// terzo argomento tipo di distanza: euclidea o manhattan
+dist = dist.multiply(10); // converto i pixel in metri
+Map.addLayer(dist, {min:0, max:1000, palette: ["green", "white", "red"]}, "dist");
+
+// in questo modo blocco la scala dei pixel
+dist = dist.reproject({
+crs: "EPSG:3035", 
+scale: 10
+});
+Map.addLayer(dist, {min:0, max:1000, palette: ["green", "white", "red"]}, "dist reprojected");
+
+// Applica un reducer nello spazio, quindi solo i pixel dentro una geometria
+// in questo caso uso la media
+var mean = dist.rename("mean").reduceRegion({
+reducer: ee.Reducer.mean(), geometry: geometry,
+scale: 10, maxPixels: 1e13, tileScale: 1});
+
+// Posso usare anche altri parametri oltre alla media
+var max = dist.rename("max").reduceRegion({
+reducer: ee.Reducer.max(), geometry: geometry,
+scale: 10, maxPixels: 1e13, tileScale: 1}); 
+
+var sd = dist.rename("sd").reduceRegion({
+reducer: ee.Reducer.stdDev(), geometry: geometry,
+scale: 10, maxPixels: 1e13, tileScale: 1});
+
+// Criterio 3-30-300, creo una maschera dove mi segna con 1 le zone </= segna con 0 le zone > di 300m
+// Quindi sono quei pixel che non mi rispettano la regola 3-30-300
+var tooFarPxs = dist.rename("tooFarPxs").gte(300).reduceRegion({
+reducer: ee.Reducer.sum(), geometry: geometry,
+scale: 10, maxPixels: 1e13, tileScale: 1});
+
+// Posso fare una tabella con tutti questi parametri
+var table = ee.Feature(null, {
+                                'mean': mean.get("mean"),
+                                'sd': sd.get("sd"),
+                                'max': max.get("max"),
+                                'tooFarPxs': tooFarPxs.get("tooFarPxs")
+});
+
+
 
 
 
