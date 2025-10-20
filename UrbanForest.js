@@ -92,15 +92,4 @@ var table = ee.Feature(null, {
                                 'tooFarPxs': tooFarPxs.get("tooFarPxs")
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
+print(table)
