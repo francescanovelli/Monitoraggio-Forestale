@@ -45,6 +45,10 @@ Notevole sviluppo hanno le peccete e le abetine variamente consociate con il fag
 
 ## VALLE DI ZOLDO
 
+# DA FARE
++ Interfaccia utente
++ Modello per le categorie forestali
+
 # DA CHIEDERE AL PROF.
 + Dobbiamo fare/ha senso calcolare l'NDVI? Lo possiamo fare con i dati della Carta Forestale?
 
