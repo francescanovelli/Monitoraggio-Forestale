@@ -78,8 +78,8 @@ Notevole sviluppo hanno le peccete e le abetine variamente consociate con il fag
 # ARTICOLI INTERESSANTI
 + https://www.mdpi.com/2072-4292/13/10/1904
 + https://www.proquest.com/docview/2957801522?accountid=9652&sourcetype=Scholarly%20Journals
-+ https://www.nature.com/articles/sdata2017191
-+ https://journals.mesopotamian.press/index.php/BJML/article/view/417/289
++ TerraClimate: https://www.nature.com/articles/sdata2017191
++ RandomForest: https://journals.mesopotamian.press/index.php/BJML/article/view/417/289
 
 + [[PDF] Evaluating vegetation dynamics in the Yangtze river basin in relation to climatological parameters using remote sensing data from 2001 to 2022](https://bibliotekanauki.pl/articles/63521188.pdf)
 
