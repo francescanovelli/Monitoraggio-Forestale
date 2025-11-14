@@ -1,4 +1,24 @@
 # INTRODUZIONE
++ (Basit et al., 2024)
+  La stima della variabilità spazio-temporale della variabilità della salute della vegetazione e le
+  variabili climatiche associate è un prerequisito per una gestione efficace degli ecosistemi montani. Lo
+  studio vuole quantificiare gli effetti del cambiamento di diversi parametri climatici sulla salute della
+  vegetazione in Khyber Pakhtunkhwa, Pakistan, dal 2012 al 2021.
+  L'associazione tra l'NDVI e le tre variabili esplicative, cioè temperatura, precipitazione e velocità del
+  vento, sono state analizzate usando modelli geostatistici.
+  Il fattore climatico più dominante nell'influenza delle dinemiche di vegetazione in KPK è la temperatura,
+  seguito dalla velocità del vento e dalle precipitazioni.
+  Nel complesso, l'utilizzo di modelli geostatistici basati su dataset di osservazioni terrestri hanno permesso una profonda comprensione delle variazioni spazio-temporali nelle risposte della vegetazione ai cambiamenti climatici, necessarie per uno sviluppo sostenibile e un'azione climatica responsabile.
+
+  È importante riconoscere i fattori del cambiamento della vegetazione per ottimizzare i servizi ecosistemici e la sostenibilità ambientale.
+
+  I parametri climatici che influenzano maggiormente la salute e la distribuzione spaziale della vegetazione sono la temperatura e le precipitazioni.
+  Un aumento delle temperature potrebbe risultare in una maggiore evapotraspirazione e in un aumento dell'attività della vegetazione; in ogni caso, il riscaldamento oltre certi livelli rompe l'equilibrio idrotermico necessario per la crescita della pianta.
+  Le precipitazioni aumentano la disponibilità di umidità del suolo, facilitando la crescita della pianta attraverso la fornitura di mezzi acquosi per la dissoluzione dei nutrienti del suolo.
+
+  I dati ottenuti dal telerilevamento satellitare sono utili per monitorare e valutare i cambiamenti nella copertura vegetale regionale e globale lungo l'eterogeneità spaziale. Uno degli individi biofisici di vegetazione derivati dai satelliti più utilizzato è il Normalized Difference Vegetation Index (NDVI), che misura la greenness della copertura della vegetazione usando gli spettri di riflettanza alle lunghezze d'onda del rosso e dell'infrarosso vicino.
+  > Nell'articolo ci sono altre info sull'NDVI (sottolineate in giallo)
++ 
 
 # MATERIALI E METODI
 ## Area di studio
