@@ -14,7 +14,8 @@
 
   I dati ottenuti dal telerilevamento satellitare sono utili per monitorare e valutare i cambiamenti nella copertura vegetale regionale e globale lungo l'eterogeneità spaziale. Uno degli individi biofisici di vegetazione derivati dai satelliti più utilizzato è il Normalized Difference Vegetation Index (NDVI), che misura la greenness della copertura della vegetazione usando gli spettri di riflettanza alle lunghezze d'onda del rosso e dell'infrarosso vicino.
   > Nell'articolo ci sono altre info sull'NDVI (sottolineate in giallo)
-+ 
+
+  
 
 # MATERIALI E METODI
 ## Area di studio
@@ -27,6 +28,7 @@ TerraClimate
 
 ### Dati sulla vegetazione
 RandomForest
++ Random Forest Algorithm Overview (Salman et al., 2024)
 Carta Forestale Italiana
 
 ### Dati territoriali
