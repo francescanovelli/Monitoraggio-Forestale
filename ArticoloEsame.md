@@ -1,3 +1,10 @@
+# INTRODUZIONE
+
+# MATERIALI E METODI
+## Area di studio
+
+--------------------------------
+
 # CARATTERISTICHE DELLE VALLI
 ## VALLE STURA
 + Clima: la Valle Stura di Demonte è orientata da est ad ovest come le valli principali delle Alpi sudoccidentali, a differenza delle Alpi Marittime s.s e Liguri dove, sul versante piemontese,
@@ -58,7 +65,7 @@ Notevole sviluppo hanno le peccete e le abetine variamente consociate con il fag
 # ARTICOLI INTERESSANTI
 + https://www.mdpi.com/2072-4292/13/10/1904
 + https://www.proquest.com/docview/2957801522?accountid=9652&sourcetype=Scholarly%20Journals
-+ https://archivio.cai.it/wp-content/uploads/2022/02/Alpenkonvention_Klima_it.pdf
++ 
 + [[PDF] Evaluating vegetation dynamics in the Yangtze river basin in relation to climatological parameters using remote sensing data from 2001 to 2022](https://bibliotekanauki.pl/articles/63521188.pdf)
 
 # BIBLIOGRAFIA
