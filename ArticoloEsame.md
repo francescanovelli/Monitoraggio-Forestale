@@ -1,13 +1,9 @@
 # INTRODUZIONE
-+ (Basit et al., 2024)
-  La stima della variabilità spazio-temporale della variabilità della salute della vegetazione e le
-  variabili climatiche associate è un prerequisito per una gestione efficace degli ecosistemi montani. Lo
-  studio vuole quantificiare gli effetti del cambiamento di diversi parametri climatici sulla salute della
-  vegetazione in Khyber Pakhtunkhwa, Pakistan, dal 2012 al 2021.
-  L'associazione tra l'NDVI e le tre variabili esplicative, cioè temperatura, precipitazione e velocità del
-  vento, sono state analizzate usando modelli geostatistici.
-  Il fattore climatico più dominante nell'influenza delle dinemiche di vegetazione in KPK è la temperatura,
-  seguito dalla velocità del vento e dalle precipitazioni.
++ Assessment of vegetation dynamics under changed climate situation using geostatistical modeling (Basit et al., 2024)
+
+  La stima della variabilità spazio-temporale della variabilità della salute della vegetazione e le variabili climatiche associate è un prerequisito per una gestione efficace degli ecosistemi montani. Lo studio vuole quantificiare gli effetti del cambiamento di diversi parametri climatici sulla salute della vegetazione in Khyber Pakhtunkhwa, Pakistan, dal 2012 al 2021.
+  L'associazione tra l'NDVI e le tre variabili esplicative, cioè temperatura, precipitazione e velocità del vento, sono state analizzate usando modelli geostatistici.
+  Il fattore climatico più dominante nell'influenza delle dinemiche di vegetazione in KPK è la temperatura, seguito dalla velocità del vento e dalle precipitazioni.
   Nel complesso, l'utilizzo di modelli geostatistici basati su dataset di osservazioni terrestri hanno permesso una profonda comprensione delle variazioni spazio-temporali nelle risposte della vegetazione ai cambiamenti climatici, necessarie per uno sviluppo sostenibile e un'azione climatica responsabile.
 
   È importante riconoscere i fattori del cambiamento della vegetazione per ottimizzare i servizi ecosistemici e la sostenibilità ambientale.
@@ -97,7 +93,8 @@ Notevole sviluppo hanno le peccete e le abetine variamente consociate con il fag
 
 # ARTICOLI INTERESSANTI
 + https://www.mdpi.com/2072-4292/13/10/1904
-+ https://www.proquest.com/docview/2957801522?accountid=9652&sourcetype=Scholarly%20Journals
++ Assessment of vegetation dynamics under changed climate situation using geostatistical modeling (Basit et al., 2024)
+https://www.proquest.com/docview/2957801522?accountid=9652&sourcetype=Scholarly%20Journals
 + TerraClimate: https://www.nature.com/articles/sdata2017191
 + RandomForest: https://journals.mesopotamian.press/index.php/BJML/article/view/417/289
 
