@@ -9,6 +9,13 @@ Le valli corrispondono a tre valli in Piemonte (Valle Stura, Val di Susa e Val G
 ### Dati climatici
 TerraClimate
 
+### Dati sulla vegetazione
+RandomForest
+Carta Forestale Italiana
+
+### Dati territoriali
+Digitalizzazione delle valli con il software QGIS utilizzando layer presenti sui geoportali delle regioni italiane interessate.
+
 --------------------------------
 
 # CARATTERISTICHE DELLE VALLI
