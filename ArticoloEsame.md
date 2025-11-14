@@ -29,6 +29,7 @@ TerraClimate
 ### Dati sulla vegetazione
 RandomForest
 + Random Forest Algorithm Overview (Salman et al., 2024)
+  
 Carta Forestale Italiana
 
 ### Dati territoriali
