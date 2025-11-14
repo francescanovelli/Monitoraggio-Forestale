@@ -15,7 +15,31 @@
   I dati ottenuti dal telerilevamento satellitare sono utili per monitorare e valutare i cambiamenti nella copertura vegetale regionale e globale lungo l'eterogeneità spaziale. Uno degli individi biofisici di vegetazione derivati dai satelliti più utilizzato è il Normalized Difference Vegetation Index (NDVI), che misura la greenness della copertura della vegetazione usando gli spettri di riflettanza alle lunghezze d'onda del rosso e dell'infrarosso vicino.
   > Nell'articolo ci sono altre info sull'NDVI (sottolineate in giallo)
 
-  
++ Montrends (Alírio et al., 2025)
+  Le attività umane stanno impattando la biodiversità in tutto il mondo.
+  Il monitoraggio della biodiversità è essenziale per valutare e supportare lo stato di conservazione e i trend. Il remote sensing ha giocato un ruolo cruciale nel supportare il monitoraggio della biodiversità.
+  Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. 
+  These issues demand immediate attention, and proactive conservation efforts are essential to minimise and mitigate the impacts of human activities. Ongoing biodiversity monitoring is crucial for enabling informed decision-making in conservation policy and effective biodiversity management.
+  (camera traps, audio recorders, and telemetry devices). Addi
+tionally, satellite remote sensing (SRS) has proven to be a powerful tool 
+for monitoring the Earth’s surface and atmosphere across global, 
+regional, and local scales. The extensive data acquired regularly by 
+various satellites and sensors, such as Landsat, MODIS (Moderate-Res
+olution Imaging Spectroradiometer), and Sentinel, ensures consistent 
+coverage of the planet (Petrou et al., 2015; Randin et al., 2020). SRS 
+time series offers continuous and cost-effective spatiotemporal data 
+about key factors driving species’ distribution and temporal dynamics 
+(Pettorelli et al., 2016). Therefore, integrating SRS products and tech
+niques in monitoring programs facilitates monitoring the planetary 
+boundaries of Earth’s safe operating space for humanity
+ Google Earth Engine (GEE; https://earthengine.google.com/) 
+(Aires et al., 2020; Campos et al., 2023), a cloud-based platform 
+developed by Google for planetary-scale environmental data analysis 
+(Gorelick et al., 2017). Using Google’s computational infrastructure, 
+GEE enables scientists, researchers, and developers to analyse vast 
+amounts of geospatial data. The platform provides access to various 
+satellite imagery and other geospatial datasets, such as climate, land 
+use/land cover, and terrain data. 
 
 # MATERIALI E METODI
 ## Area di studio
