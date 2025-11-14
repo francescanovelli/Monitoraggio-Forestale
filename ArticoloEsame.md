@@ -29,6 +29,7 @@ TerraClimate
 ### Dati sulla vegetazione
 RandomForest
 + Random Forest Algorithm Overview (Salman et al., 2024)
+  Random Forst è un tecnica di machine learning usato nel campo del data mining, sia per la classificazione sia per la creazione di modelli predittivi. Questa tacnica si basa sulla creazione di molteplici alberi decisionali (decision tree), generati a partire da sottoinsiemi casuali del dataset originale. Ogni albero viene quindi allenato su una porzione dei dati e le sue predizzioni vengono successivamente aggregate per ottenere il modello finale. Ogni albero decisonale è generato in maniera del tutto casuale, si per quanto riguarda la selezione dei dati sia nella scelta delle variabili usate per le suddivisioni. Ramndom Forest elabora anche dataset particolaremnte grandi e con molte variabili, funziona anche con dati sbilanciati e alla presenza di varlori mancanti.
   
 Carta Forestale Italiana
 
