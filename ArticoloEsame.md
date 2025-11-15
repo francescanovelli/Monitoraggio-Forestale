@@ -17,29 +17,19 @@
 
 + Montrends (Alírio et al., 2025)
   Le attività umane stanno impattando la biodiversità in tutto il mondo.
+
   Il monitoraggio della biodiversità è essenziale per valutare e supportare lo stato di conservazione e i trend. Il remote sensing ha giocato un ruolo cruciale nel supportare il monitoraggio della biodiversità.
-  Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. 
-  These issues demand immediate attention, and proactive conservation efforts are essential to minimise and mitigate the impacts of human activities. Ongoing biodiversity monitoring is crucial for enabling informed decision-making in conservation policy and effective biodiversity management.
-  (camera traps, audio recorders, and telemetry devices). Addi
-tionally, satellite remote sensing (SRS) has proven to be a powerful tool 
-for monitoring the Earth’s surface and atmosphere across global, 
-regional, and local scales. The extensive data acquired regularly by 
-various satellites and sensors, such as Landsat, MODIS (Moderate-Res
-olution Imaging Spectroradiometer), and Sentinel, ensures consistent 
-coverage of the planet (Petrou et al., 2015; Randin et al., 2020). SRS 
-time series offers continuous and cost-effective spatiotemporal data 
-about key factors driving species’ distribution and temporal dynamics 
-(Pettorelli et al., 2016). Therefore, integrating SRS products and tech
-niques in monitoring programs facilitates monitoring the planetary 
-boundaries of Earth’s safe operating space for humanity
- Google Earth Engine (GEE; https://earthengine.google.com/) 
-(Aires et al., 2020; Campos et al., 2023), a cloud-based platform 
-developed by Google for planetary-scale environmental data analysis 
-(Gorelick et al., 2017). Using Google’s computational infrastructure, 
-GEE enables scientists, researchers, and developers to analyse vast 
-amounts of geospatial data. The platform provides access to various 
-satellite imagery and other geospatial datasets, such as climate, land 
-use/land cover, and terrain data. 
+
+   Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. Questi problemi richiedono attenzione immediata e sforzi di conservazione proattiva sono essenziali per minimizzare e mitigare gli impatti dell'attività umana. Il monitoraggio continuo della vegetazione è cruciale per consentire una capacità decisionale informata nelle politiche di conservazione e in un'efficace gestione della bioidversità.
+
+   In aggiunta, il telerilevamento satellitare è stato provato essere uno strumento potente per il monitoraggio della superficie della Terra e dell'atmosfera a scala globale, regionale e locale. I dati dettagliati acquisiti regolarmente da vari sensori e satelliti, come Landsat, MODIS (Moderate-Resolution Imaging Spectroradiometer) e Sentinel, assicurano una copertura consistente del Pianeta. Le serie temporali derivate dal telerilevamento satellitare offronto dati spazio temporali continui ed economicamente vantaggiosi riguardo fattori chiave che guidano la distribuzione delle specie e le dinamiche temporali. Perciò, integrare i prodotti del telerilevamento satellitare e le tecniche dei programmi di monitoraggio faciluta il monitoraggio dei confini planetari dello spazio operativo sicuro per l'umanità.
+
+   Google Earth Engine (GEE; https://earthengine.google.com/) è una piattaforma cloud-based sviluppata da Google per analisi dei dati ambientali a scala planetaria. Usare l'infrastruttura computazionale di Google permette a scienziato, ricercatori e sviluppatori di analizzare una vasta gamma di dati geospaziali. La piattaforma fornisce l'accesso a varie immagini satellitari e ad altri dataset geospaziali, come il clima, la copertura e l'uso del suolo e dati terrestri.
+
+
++ From Remote Sensing to Species Distribution Modelling (De Simone et al., 2021)
+  Il telerilevamento è stato ampiamente usato come strumento per investigare diversi fattori biotici e abiotici, direttamente o indirettamente collegati alla conservazione della biodiversità. È confermato essere uno strumento efficente per studiare i pattern e le dinamiche di vegetazione sia localmente che globalmente: i dati multispettrali come Landsat e Sentinel-2 sono adatti per investigare le dinamiche di vegetazione.
+ 
 
 # MATERIALI E METODI
 ## Area di studio
@@ -119,14 +109,16 @@ Notevole sviluppo hanno le peccete e le abetine variamente consociate con il fag
 + Correlazione tra temperatura/precipitazione e copertura vegetativa totale (?)
 
 # ARTICOLI INTERESSANTI
-+ https://www.mdpi.com/2072-4292/13/10/1904
++ From Remote Sensing to Species Distribution Modelling (De Simone et al., 2021)
+https://www.mdpi.com/2072-4292/13/10/1904
 + [[PDF] Evaluating vegetation dynamics in the Yangtze river basin in relation to climatological parameters using remote sensing data from 2001 to 2022](https://bibliotekanauki.pl/articles/63521188.pdf)
 + Assessment of vegetation dynamics under changed climate situation using geostatistical modeling (Basit et al., 2024)
 https://www.proquest.com/docview/2957801522?accountid=9652&sourcetype=Scholarly%20Journals
 + TerraClimate: https://www.nature.com/articles/sdata2017191
 + RandomForest: https://journals.mesopotamian.press/index.php/BJML/article/view/417/289
 + Carta Forestale Italiana: https://foresta.sisef.org/contents/?id=efor4836-022
-
++ Montrends (Alírio et al., 2025)
+https://www.sciencedirect.com/science/article/pii/S1574954125002109
 
 # BIBLIOGRAFIA
 + https://www.regione.piemonte.it/giscartografia/Parchi/schede_settori_ecogeografici.pdf
