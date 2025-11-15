@@ -1,53 +1,40 @@
 # INTRODUZIONE
-+ Assessment of vegetation dynamics under changed climate situation using geostatistical modeling (Basit et al., 2024)
+Il monitoraggio continuo della vegetazione è cruciale per consentire una capacità decisionale informata nelle politiche di conservazione, per un'efficace gestione della bioidversità (Basit et al., 2024).
 
-  La stima della variabilità spazio-temporale della variabilità della salute della vegetazione e le variabili climatiche associate è un prerequisito per una gestione efficace degli ecosistemi montani. Lo studio vuole quantificiare gli effetti del cambiamento di diversi parametri climatici sulla salute della vegetazione in Khyber Pakhtunkhwa, Pakistan, dal 2012 al 2021.
-  L'associazione tra l'NDVI e le tre variabili esplicative, cioè temperatura, precipitazione e velocità del vento, sono state analizzate usando modelli geostatistici.
-  Il fattore climatico più dominante nell'influenza delle dinemiche di vegetazione in KPK è la temperatura, seguito dalla velocità del vento e dalle precipitazioni.
-  Nel complesso, l'utilizzo di modelli geostatistici basati su dataset di osservazioni terrestri hanno permesso una profonda comprensione delle variazioni spazio-temporali nelle risposte della vegetazione ai cambiamenti climatici, necessarie per uno sviluppo sostenibile e un'azione climatica responsabile.
-
-  È importante riconoscere i fattori del cambiamento della vegetazione per ottimizzare i servizi ecosistemici e la sostenibilità ambientale.
-
-  I parametri climatici che influenzano maggiormente la salute e la distribuzione spaziale della vegetazione sono la temperatura e le precipitazioni.
-  Un aumento delle temperature potrebbe risultare in una maggiore evapotraspirazione e in un aumento dell'attività della vegetazione; in ogni caso, il riscaldamento oltre certi livelli rompe l'equilibrio idrotermico necessario per la crescita della pianta.
-  Le precipitazioni aumentano la disponibilità di umidità del suolo, facilitando la crescita della pianta attraverso la fornitura di mezzi acquosi per la dissoluzione dei nutrienti del suolo.
-
-  I dati ottenuti dal telerilevamento satellitare sono utili per monitorare e valutare i cambiamenti nella copertura vegetale regionale e globale lungo l'eterogeneità spaziale. Uno degli individi biofisici di vegetazione derivati dai satelliti più utilizzato è il Normalized Difference Vegetation Index (NDVI), che misura la greenness della copertura della vegetazione usando gli spettri di riflettanza alle lunghezze d'onda del rosso e dell'infrarosso vicino.
-  > Nell'articolo ci sono altre info sull'NDVI (sottolineate in giallo)
-
-+ Montrends (Alírio et al., 2025)
-  Le attività umane stanno impattando la biodiversità in tutto il mondo.
-
-  Il monitoraggio della biodiversità è essenziale per valutare e supportare lo stato di conservazione e i trend. Il remote sensing ha giocato un ruolo cruciale nel supportare il monitoraggio della biodiversità.
-
-   Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. Questi problemi richiedono attenzione immediata e sforzi di conservazione proattiva sono essenziali per minimizzare e mitigare gli impatti dell'attività umana. Il monitoraggio continuo della vegetazione è cruciale per consentire una capacità decisionale informata nelle politiche di conservazione e in un'efficace gestione della bioidversità.
-
-   In aggiunta, il telerilevamento satellitare è stato provato essere uno strumento potente per il monitoraggio della superficie della Terra e dell'atmosfera a scala globale, regionale e locale. I dati dettagliati acquisiti regolarmente da vari sensori e satelliti, come Landsat, MODIS (Moderate-Resolution Imaging Spectroradiometer) e Sentinel, assicurano una copertura consistente del Pianeta. Le serie temporali derivate dal telerilevamento satellitare offronto dati spazio temporali continui ed economicamente vantaggiosi riguardo fattori chiave che guidano la distribuzione delle specie e le dinamiche temporali. Perciò, integrare i prodotti del telerilevamento satellitare e le tecniche dei programmi di monitoraggio faciluta il monitoraggio dei confini planetari dello spazio operativo sicuro per l'umanità.
-
-   Google Earth Engine (GEE; https://earthengine.google.com/) è una piattaforma cloud-based sviluppata da Google per analisi dei dati ambientali a scala planetaria. Usare l'infrastruttura computazionale di Google permette a scienziato, ricercatori e sviluppatori di analizzare una vasta gamma di dati geospaziali. La piattaforma fornisce l'accesso a varie immagini satellitari e ad altri dataset geospaziali, come il clima, la copertura e l'uso del suolo e dati terrestri.
+Per gestire in modo efficace gli ecosistemi, in particolare quelli montani, è quindi importante stimare la variabilità spazio-temporale della vegetazione e le variabili climatiche associate e responsabili di tali cambiamenti (Basit et al., 2024). I parametri climatici che più influenzano la distribuzione spaziale della vegetazione sono la temperatura e le precipitazioni: infatti, un aumento delle temperature potrebbe da un lato aumentare l'attività fotosintetica della vegetazione, ma dall'altro il riscaldamento oltre certi livelli provocherebbe problemi da un punto di vista di biliancio idro-termico e, di conseguenza, avrebbe effetti sulla crescita della pianta; le precipitazioni, invece, sono fondamentali per la disponibilità di acqua nel suolo e quindi prolungati periodi di siccità possono portare alla morte degli organismi vegetali (Basit et al., 2024).
+Questa tipologia di analisi permette di fare inferenze anche sul cambiamento delle tipologie di vegetazione in relazione alle condizioni di precipitazione e temperatura, alla posizione geografica e le loro variazioni nel tempo.
 
 
-+ From Remote Sensing to Species Distribution Modelling (De Simone et al., 2021)
-  Il telerilevamento è stato ampiamente usato come strumento per investigare diversi fattori biotici e abiotici, direttamente o indirettamente collegati alla conservazione della biodiversità. È confermato essere uno strumento efficente per studiare i pattern e le dinamiche di vegetazione sia localmente che globalmente: i dati multispettrali come Landsat e Sentinel-2 sono adatti per investigare le dinamiche di vegetazione.
- 
+In questo contesto, il telerilevamento satellitare è uno strumento molto importante, che permette di monitorare la superficie terrestre, e quindi anche la copertura vegetativa, a scala globale, regionale e locale. I dati vengono acquisiti in maniera continua e dettagliata attraverso satelliti e sensori e si possono ottenere serie temporali che forniscono dati fondamentali per analizzare i driver della distribuzione delle specie e le relative dinamiche tempolari. Per questo motivo, l'integrazione tra dati di remote sensing e il monitoraggio ambientale permette di abbattere i costi e di ottenere informazioni anche a più ampia scala temporale e spaziale (Alírio et al., 2025). 
+
+Nello specifico, Google Earth Engine (GEE; https://earthengine.google.com/) è una piattaforma cloud-based sviluppata da Google per analisi dei dati ambientali a scala planetaria: attarverso GEE scienziati, ricercatori e sviluppatori possono analizzare una vasta gamma di dati geospaziali, tramite l'accesso a varie immagini satellitari e ad altri dataset geospaziali, come il clima, la copertura e l'uso del suolo e dati terrestri (Alírio et al., 2025).
 
 # MATERIALI E METODI
 ## Area di studio
+
+L'area di studio comprende sette valli che sono state scelte come area campione.
 
 Le valli corrispondono a tre valli in Piemonte (Valle Stura, Val di Susa e Val Grande), una valle in Lombardia (Valle Camonica), una valle in Trentino-Alto Adige (Val di Non), una valle in Veneto (Val di Zoldo) e una valle in Friuli-Venezia-Giulia (Alta valle del Tagliamento). La scelta di queste valli è stata dettata dalla volontà di studiare aree distribuite in tutto l'arco alpino e con due orientamenti principali: sono infatti state selezionate tre valli disposte con orientamento nord-sud (Val Grande, Valle Camonica e Val di Non) e quattro valli disposte con orientamento est-ovest (Valle Stura, Val di Susa, Val di Zoldo e Alta valle del Tagliamento). In questo modo, è stato possibile confrontare i dati di precipitazione e temperatura sia in funzione dei settori alpini, che in funzione dell'orientamento delle valli.
 
 ## Dataset
 ### Dati climatici
-TerraClimate, a high-resolution global dataset of monthly climate andc limatic water balance from 1958–2015 (Abatzoglou et al., 2018)
-+ TerraClimate è un dataset mensile ad alta risoluzione spaziale (1/24°,~4-km) relativo alle condizioni climatiche globali, che copre il periodo dal 1958 fino ad oggi, disponibile du Google Earth Engine. TerraClimate usa un'interpolazione assistita climaticamente, combiando le normali climatologiche ad alta risoluzione del dataset WorldClim con dati mesili delle variabili di climatiche, restituendole con una risoluzione molto più gorssolana, provenienti da fonti diverse rispetto al dataset WorldClim. TerraClimate reisice quindi a produrre dei dati mensili di precipitazioni, temperature massime e minime, velocità del vento, pressione di vapore e radiazione solare. TerraClimate è ad accesso pubblico posizionato in una repository dell'università di Idaho’s Northwest Knowledge Network, i dati sono aggiornati periodicamente una volta che il dato dell'anno è diventato disponibile.
+I dati climatici sono stati presi da TerraClimate, un dataset mensile ad alta risoluzione spaziale (1/24°,~4-km) relativo alle condizioni climatiche globali, che copre il periodo dal 1958 fino ad oggi, disponibile su Google Earth Engine.
+
+TerraClimate usa un'interpolazione assistita climaticamente, combinando le normali climatologiche ad alta risoluzione del dataset WorldClim con dati mesili delle variabili di climatiche, provenienti da fonti diverse rispetto al dataset WorldClim, restituendole con una risoluzione molto più grossolana. TerraClimate riesce quindi a produrre dei dati mensili di precipitazioni, temperature massime e minime, velocità del vento, pressione di vapore e radiazione solare.
+
+TerraClimate è ad accesso pubblico posizionato in una repository dell'università di Idaho’s Northwest Knowledge Network; i dati sono aggiornati periodicamente una volta che il dato dell'anno è diventato disponibile (Abatzoglou et al., 2018).
+
+
+I dati di base della distribuzione delle tipologie di vegetazione nelle valli area di studio provengono, invece, dalla Carta Forestale Italiana.
+
 
 Random Forest Algorithm Overview (Salman et al., 2024)
-+   Random Forst è un tecnica di machine learning usato nel campo del data mining, sia per la classificazione sia per la creazione di modelli predittivi. Questa tacnica si basa sulla creazione di molteplici alberi decisionali (decision tree), generati a partire da sottoinsiemi casuali del dataset originale. Ogni albero viene quindi allenato su una porzione dei dati e le sue predizzioni vengono successivamente aggregate per ottenere il modello finale. Ogni albero decisonale è generato in maniera del tutto casuale, si per quanto riguarda la selezione dei dati sia nella scelta delle variabili usate per le suddivisioni. Ramndom Forest elabora anche dataset particolaremnte grandi e con molte variabili, funziona anche con dati sbilanciati e alla presenza di varlori mancanti.
-  
-Carta Forestale Italiana
++   Random Forest è un tecnica di machine learning usato nel campo del data mining, sia per la classificazione che per la creazione di modelli predittivi. Questa tecnica si basa sulla creazione di molteplici alberi decisionali (decision tree), generati a partire da sottoinsiemi casuali del dataset originale. Ogni albero viene quindi allenato su una porzione dei dati e le sue predizioni vengono successivamente aggregate per ottenere il modello finale. Ogni albero decisonale è generato in maniera del tutto casuale, sia per quanto riguarda la selezione dei dati sia nella scelta delle variabili usate per le suddivisioni.
 
+Ramndom Forest elabora anche dataset particolaremnte grandi e con molte variabili e funziona anche con dati sbilanciati e alla presenza di valori mancanti.
+  
 ### Dati territoriali
-Digitalizzazione delle valli con il software QGIS utilizzando layer presenti sui geoportali delle regioni italiane interessate.
+I dati territoriali provangono dalla digitalizzazione delle valli con il software QGIS utilizzando layer presenti sui geoportali delle regioni italiane interessate (Piemonte, Lombardia, Trentino Alto-Adige, Veneto, Friuli-Venezia-Giulia).
 
 --------------------------------
 
@@ -111,15 +98,37 @@ Notevole sviluppo hanno le peccete e le abetine variamente consociate con il fag
 # ARTICOLI INTERESSANTI
 + From Remote Sensing to Species Distribution Modelling (De Simone et al., 2021)
 https://www.mdpi.com/2072-4292/13/10/1904
+ Il telerilevamento è stato ampiamente usato come strumento per investigare diversi fattori biotici e abiotici, direttamente o indirettamente collegati alla conservazione della biodiversità. È confermato essere uno strumento efficente per studiare i pattern e le dinamiche di vegetazione sia localmente che globalmente: i dati multispettrali come Landsat e Sentinel-2 sono adatti per investigare le dinamiche di vegetazione.
+
 + [[PDF] Evaluating vegetation dynamics in the Yangtze river basin in relation to climatological parameters using remote sensing data from 2001 to 2022](https://bibliotekanauki.pl/articles/63521188.pdf)
+
 + Assessment of vegetation dynamics under changed climate situation using geostatistical modeling (Basit et al., 2024)
 https://www.proquest.com/docview/2957801522?accountid=9652&sourcetype=Scholarly%20Journals
-+ TerraClimate: https://www.nature.com/articles/sdata2017191
+Lo studio vuole quantificiare gli effetti del cambiamento di diversi parametri climatici sulla salute della vegetazione in Khyber Pakhtunkhwa, Pakistan, dal 2012 al 2021.
+  L'associazione tra l'NDVI e le tre variabili esplicative, cioè temperatura, precipitazione e velocità del vento, sono state analizzate usando modelli geostatistici.
+  Il fattore climatico più dominante nell'influenza delle dinamiche di vegetazione in KPK è la temperatura, seguito dalla velocità del vento e dalle precipitazioni.
+  Nel complesso, l'utilizzo di modelli geostatistici basati su dataset di osservazioni terrestri hanno permesso una profonda comprensione delle variazioni spazio-temporali nelle risposte della vegetazione ai cambiamenti climatici, necessarie per uno sviluppo sostenibile e un'azione climatica responsabile.
+  I dati ottenuti dal telerilevamento satellitare sono utili per monitorare e valutare i cambiamenti nella copertura vegetale regionale e globale lungo l'eterogeneità spaziale. Uno degli indici biofisici di vegetazione derivati dai satelliti più utilizzato è il Normalized Difference Vegetation Index (NDVI), che misura la greenness della copertura della vegetazione usando gli spettri di riflettanza alle lunghezze d'onda del rosso e dell'infrarosso vicino.
+  > Nell'articolo ci sono altre info sull'NDVI (sottolineate in giallo)
+
++ TerraClimate, a high-resolution global dataset of monthly climate andc limatic water balance from 1958–2015 (Abatzoglou et al., 2018)
+https://www.nature.com/articles/sdata2017191
+
 + RandomForest: https://journals.mesopotamian.press/index.php/BJML/article/view/417/289
+
 + Carta Forestale Italiana: https://foresta.sisef.org/contents/?id=efor4836-022
+
 + Montrends (Alírio et al., 2025)
 https://www.sciencedirect.com/science/article/pii/S1574954125002109
+Le attività umane stanno impattando la biodiversità in tutto il mondo.
+  Il monitoraggio della biodiversità è essenziale per valutare e supportare lo stato di conservazione e i trend. Il remote sensing ha giocato un ruolo cruciale nel supportare il monitoraggio della biodiversità.
+   Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. Questi problemi richiedono attenzione immediata e sforzi di conservazione proattiva sono essenziali per minimizzare e mitigare gli impatti dell'attività umana. 
 
-# BIBLIOGRAFIA
+# BIBLIOGRAFIA E SITOGRAFIA
 + https://www.regione.piemonte.it/giscartografia/Parchi/schede_settori_ecogeografici.pdf
 + https://www.arpa.fvg.it/temi/temi/meteo-e-clima/ultimi-approfondimenti-pubblicati/clima-e-cambiamenti-climatici-nelle-aree-montane-del-friuli-venezia-giulia/
++ Geoportale Regione Piemonte: https://geoportale.igr.piemonte.it/cms/
++ Geoportale Regione Lombardia: https://www.geoportale.regione.lombardia.it/
++ Portale Geoocartografico del Trentino: http://www.territorio.provincia.tn.it/portal/server.pt/community/portale_geocartografico_trentino/254
++ Geoportale Regione Veneto: https://idt2.regione.veneto.it/
++ Geoportale Friuli-Venezia-Giulia: https://www.regione.fvg.it/rafvg/cms/RAFVG/ambiente-territorio/conoscere-ambiente-territorio/FOGLIA4/
