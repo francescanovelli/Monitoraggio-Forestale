@@ -18,16 +18,17 @@ Le valli corrispondono a tre valli in Piemonte (Valle Stura, Val di Susa e Val G
 
 ## Dataset
 ### Dati climatici
+
 I dati climatici sono stati presi da TerraClimate, un dataset mensile ad alta risoluzione spaziale (1/24°,~4-km) relativo alle condizioni climatiche globali, che copre il periodo dal 1958 fino ad oggi, disponibile su Google Earth Engine.
 
 TerraClimate usa un'interpolazione assistita climaticamente, combinando le normali climatologiche ad alta risoluzione del dataset WorldClim con dati mesili delle variabili di climatiche, provenienti da fonti diverse rispetto al dataset WorldClim, restituendole con una risoluzione molto più grossolana. TerraClimate riesce quindi a produrre dei dati mensili di precipitazioni, temperature massime e minime, velocità del vento, pressione di vapore e radiazione solare.
 
 TerraClimate è ad accesso pubblico posizionato in una repository dell'università di Idaho’s Northwest Knowledge Network; i dati sono aggiornati periodicamente una volta che il dato dell'anno è diventato disponibile (Abatzoglou et al., 2018).
 
-
+### Dati sulla distribuzione delle tipologie di vegetazione
 I dati di base della distribuzione delle tipologie di vegetazione nelle valli area di studio provengono, invece, dalla Carta Forestale Italiana.
 
-
+### Random Forest
 Random Forest Algorithm Overview (Salman et al., 2024)
 +   Random Forest è un tecnica di machine learning usato nel campo del data mining, sia per la classificazione che per la creazione di modelli predittivi. Questa tecnica si basa sulla creazione di molteplici alberi decisionali (decision tree), generati a partire da sottoinsiemi casuali del dataset originale. Ogni albero viene quindi allenato su una porzione dei dati e le sue predizioni vengono successivamente aggregate per ottenere il modello finale. Ogni albero decisonale è generato in maniera del tutto casuale, sia per quanto riguarda la selezione dei dati sia nella scelta delle variabili usate per le suddivisioni.
 
