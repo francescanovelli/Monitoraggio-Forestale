@@ -27,6 +27,7 @@ TerraClimate è ad accesso pubblico posizionato in una repository dell'universit
 
 ### Dati sulla distribuzione delle tipologie di vegetazione
 I dati di base della distribuzione delle tipologie di vegetazione nelle valli area di studio provengono, invece, dalla Carta Forestale Italiana.
++ La Carta Forestale Italiana nasce per creare una mappatura e una classificazione delle superfici forestali a livello nazionale, per disporre di informazioni affidabili sugli ecosistemi forestali. Queste informazioni servono per raggiungere gli obiettvi stategici europei e di sostenibilità economica e sociale.
 
 ### Random Forest
 Random Forest Algorithm Overview (Salman et al., 2024)
