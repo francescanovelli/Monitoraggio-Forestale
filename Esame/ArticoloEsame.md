@@ -41,6 +41,12 @@ L'area di studio comprende sette valli che sono state scelte come area campione.
 
 Le valli corrispondono a tre valli in Piemonte (Valle Stura, Val di Susa e Val Grande), una valle in Lombardia (Valle Camonica), una valle in Trentino-Alto Adige (Val di Non), una valle in Veneto (Val di Zoldo) e una valle in Friuli-Venezia-Giulia (Alta valle del Tagliamento). La scelta di queste valli è stata dettata dalla volontà di studiare aree distribuite in tutto l'arco alpino e con due orientamenti principali: sono infatti state selezionate tre valli disposte con orientamento nord-sud (Val Grande, Valle Camonica e Val di Non) e quattro valli disposte con orientamento est-ovest (Valle Stura, Val di Susa, Val di Zoldo e Alta valle del Tagliamento). In questo modo, è stato possibile confrontare i dati di precipitazione e temperatura sia in funzione dei settori alpini, che in funzione dell'orientamento delle valli.
 
+Di seguito, si riportano alcune caratteristiche climatiche delle valli oggetto di studio:
++ Valle Stura
+  La Valle Stura è orientata da est ad ovest come le valli principali delle Alpi sudoccidentali: ciò condiziona l'afflusso di aria umida marina per cui è una valle relativamente asciutta.
+ospitano gli endemismi più significativi delle Alpi ed un numero elevato di relitti tassonomici, di fitocenosi e di popolamenti esclusivi, in particolare nelle stazioni rupestri.
+Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricchezza floristica per numero e varietà di specie.
+
 ## Dataset
 ### Dati climatici
 
@@ -85,14 +91,7 @@ https://iacweb.ethz.ch/doc/publications/1998_Schar_AlpineClimate.pdf
 --------------------------------
 
 # CARATTERISTICHE DELLE VALLI
-## VALLE STURA
-+ Clima: la Valle Stura di Demonte è orientata da est ad ovest come le valli principali delle Alpi sudoccidentali, a differenza delle Alpi Marittime s.s e Liguri dove, sul versante piemontese,
-l'orientamento prevalente è da nord a sud. Ciò condiziona l'afflusso di aria umida marina per cui relativamente asciutta è la Valle Stura, mentre valori più elevati, con precipitazioni tra 900 e 1200 mm,
-caratterizzano le altre valli dove il massimo autunnale supera quello primaverile ed il minimo assoluto è quello estivo e non invernale determinando in tal modo più elevate precipitazioni nevose.
-Il margine settentrionale delle Alpi Marittime s. s. e Liguri è abbastanza ben delineato delle isoterme 10 °C ed 11 °C e dalla isoieta dei 1000 mm.
 
-+ Vegetazione e Suoli: questi ultimi sono Settori caratterizzati da una straordinaria ricchezza floristica per numero e varietà di specie,
-ospitano gli endemismi più significativi delle Alpi ed un numero elevato di relitti tassonomici, di fitocenosi e di popolamenti esclusivi, in particolare nelle stazioni rupestri.
 
 ## VAL DI SUSA
 + Clima: settori ben definiti climaticamente rispetto a quelli circostanti per i bassi valori delle precipitazioni annue ed estive, le prime inferiori a 1000 mm; quelli estremi si registrano in alta Valle di Susa e scendono fino a 600 mm.
