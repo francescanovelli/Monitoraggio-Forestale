@@ -123,6 +123,7 @@ https://link.springer.com/article/10.1007/s10750-005-1802-0
 https://iacweb.ethz.ch/doc/publications/1998_Schar_AlpineClimate.pdf
 + Semi-natural grasslands of the Non Valley (Eastern Italian Alps): Agronomic and environmental value of traditional and new Alpine hay-meadow types (Scotton et al., 2014)
 https://www.sciencedirect.com/science/article/pii/S0167880914003934
++ Case study: Valle Camonica and the Adamello Park (Gerosa et al., )
 
 
 --------------------------------
