@@ -47,6 +47,8 @@ I dati di base della distribuzione delle tipologie di vegetazione nelle valli ar
 I dati territoriali provangono dalla digitalizzazione delle valli con il software QGIS utilizzando layer presenti sui geoportali delle regioni italiane interessate (Piemonte, Lombardia, Trentino Alto-Adige, Veneto, Friuli-Venezia-Giulia).
 
 # METODI
+### Medoid
+
 ### Random Forest
 Random Forest Algorithm Overview (Salman et al., 2024)
 +   Random Forest è un tecnica di machine learning usato nel campo del data mining, sia per la classificazione che per la creazione di modelli predittivi. Questa tecnica si basa sulla creazione di molteplici alberi decisionali (decision tree), generati a partire da sottoinsiemi casuali del dataset originale. Ogni albero viene quindi allenato su una porzione dei dati e le sue predizioni vengono successivamente aggregate per ottenere il modello finale. Ogni albero decisonale è generato in maniera del tutto casuale, sia per quanto riguarda la selezione dei dati sia nella scelta delle variabili usate per le suddivisioni.
