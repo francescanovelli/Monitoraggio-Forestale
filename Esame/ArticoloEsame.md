@@ -63,6 +63,9 @@ Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricch
   La vegetazione forestale è caratterizzata, lungo l'asse vallivo principale, da cedui di castagno e boschi misti di latifoglie a struttura irregolare. Hanno un notevole sviluppo anche le peccete e le abetine variamente consociate con il faggio e i lariceti. II climax dell'abete assume particolare importanza ed estensione rispetto agli altri territori regionali (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte).
 
 + Valle Camonica
+  La Valle Camonica è una valle orientata N-S situata nelle Alpi Retine ed è caratterizzata da ecosistemi altamente eterogenei in un territorio con un range di elevazione dai 390 m ai 3539 m s.l.m.
+  Il clima corrisponde al tipo sub-oceanico temperato. Il range di precipitazioni varia  da un minimo annuale di 900 mm nella parte meridionale della valle a un massimo di 2200 mm nella parte settentrionale della valle. Il regime pluviometrico mostra due picchi in primavera e autunno e due minimi in estate e inverno, con un minimo assoluto in inverno.
+  Le temperature sono caratterizzate da una media annuale di 12 °C nel fondovalle. La temperatura minima media è registrata in gennaio con circa +2 °C, mentre la temperatura massima media è registrata in luglio con circa 20 °C.
 
   
 + Val di Non
@@ -123,4 +126,5 @@ https://link.springer.com/article/10.1007/s10750-005-1802-0
 https://iacweb.ethz.ch/doc/publications/1998_Schar_AlpineClimate.pdf
 + Semi-natural grasslands of the Non Valley (Eastern Italian Alps): Agronomic and environmental value of traditional and new Alpine hay-meadow types (Scotton et al., 2014)
 https://www.sciencedirect.com/science/article/pii/S0167880914003934
-+ Case study: Valle Camonica and the Adamello Park (Gerosa et al., )
++ Case study: Valle Camonica and the Adamello Park (Gerosa et al., 2013)
+https://books.google.it/books?hl=it&lr=&id=dOacDwAAQBAJ&oi=fnd&pg=PA323&dq=%22camonica+valley%22+and+%22precipitation%22&ots=EBD2H_ydzS&sig=JnGP-ADlFloO4590K_iwGVb8REs&redir_esc=y#v=onepage&q&f=false
