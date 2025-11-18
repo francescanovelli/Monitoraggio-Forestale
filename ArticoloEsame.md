@@ -175,7 +175,7 @@ Le Alpi europee sono la meglio conosciuta area del mondo in termini di meteo e c
 Le Alpi presentano contemporaneamente caratteristiche legate alla continentalità e alla latitudine.
 Esiste un ampio consenso sulla minaccia reale che il brusco riscaldamento globale rappresenta per un’ampia gamma di sistemi ambientali, sociali ed economici sia a livello globale che regionale, come nelle Alpi.
 
-+ 21st century climate change in the European Alps—Areview (Gobiet et al., 2014)
++21st century climate change in the European Alps—Review (Gobet et al., 2014)
 file:///C:/Users/march/Desktop/BOLOGNA/2%C2%B0%20anno/Monitoraggio%20degli%20ecosistemi/Francini/Progetto/Articoli/21stCenturyClimateChangeAlps.pdf
 
 + Current Alpine Climate (Schar et al., 1998)
