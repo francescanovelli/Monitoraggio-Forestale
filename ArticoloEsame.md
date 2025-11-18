@@ -167,4 +167,11 @@ Esiste un ampio consenso sulla minaccia reale che il brusco riscaldamento global
 
 + Current Alpine Climate (Schar et al., 1998)
 
-+ https://www.sciencedirect.com/science/article/pii/S0924271623001612
++ An assessment approach for pixel-based image composites (Francini et al., 2023)
+https://www.sciencedirect.com/science/article/pii/S0924271623001612
+3.2. Medoid calculation
+Medoids are defined as “representative objects of a data set or a cluster with a data set whose average dissimilarity to all the objects in the cluster is minimal” (Struyf et al., 1997). The objective of the Medoid algorithm is to populate the final image composite pixels with the observation that has the most similar surface reflectance values to the median surface reflectance value calculated considering all images available but excluding clouds and shadows. Using the Medoid approach, the overall difference (in terms of Euclidean distance ED in the feature space) between images observations and the median of the entire time series (excluding pixels covered by clouds) defines the score that is used to select the optimum observations for compositing. As per the BAP approach, the Medoid compositing approach maintains the relationship between bands and produces composites in which observations refer to specific acquisition dates.
+In this study, we used the method presented by Kennedy et al. (2018), which is an approximation of the medoid (Flood, 2013): first, for each pixel and spectral band, the median value m is computed considering the entire image collection; then equation (1) is implemented to calculate for each pixel the ED.
+(1)
+Where b refers to the six Landsat bands considered, m is the pixel median value calculated in the first step, and i is the pixel value in the ith image.
+Finally, the band spectral values with the smaller ED are assigned to each output pixel. For the sake of comparability, pixel observations from Landsat 7 with an opacity value greater than 0.3 were a priori excluded from the analysis, as done for the BAP method. In those pixels with only two valid observations, the medoid value was given by randomly selecting one of the values.
