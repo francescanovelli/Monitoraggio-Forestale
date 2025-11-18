@@ -59,6 +59,8 @@ I dati territoriali provangono dalla digitalizzazione delle valli con il softwar
 
 # METODI
 ### Medoid
+An assessment approach for pixel-based image composites (Francini et al.,2023)
++ Il telerilevamento è tra le maggiori fonti del monitoraggio delle dinamiche forestali e molto spesso le immagini che restituiscono i dati telerilevati presentano pixel di nuvole o nebbia poco utili per guardare la copertura del suolo. Ci sono però metodi per evitare questi pixel prodotti tramite dei composites come il Medoid. Il Medoid è un esempio di metodologia del pixel-based compositing, dove il suo scopo principale è quello di creare delle immagini senza nuvole o nebbia.
 
 ### Random Forest
 Random Forest Algorithm Overview (Salman et al., 2024)
