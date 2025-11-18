@@ -176,7 +176,7 @@ Le Alpi presentano contemporaneamente caratteristiche legate alla continentalit�
 Esiste un ampio consenso sulla minaccia reale che il brusco riscaldamento globale rappresenta per un’ampia gamma di sistemi ambientali, sociali ed economici sia a livello globale che regionale, come nelle Alpi.
 
 + 21st century climate change in the European Alps—Review (Gobet et al., 2014)
-file:///C:/Users/march/Downloads/gobiet_etal-2013-STOTEN-CCAlps-online.pdf
+https://www.researchgate.net/publication/255973938_21st_century_climate_change_in_the_European_Alps-A_review
 
 + Current Alpine Climate (Schar et al., 1998)
 
