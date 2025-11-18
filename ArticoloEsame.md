@@ -166,3 +166,5 @@ Esiste un ampio consenso sulla minaccia reale che il brusco riscaldamento global
 + 21st century climate change in the European Alps—Areview (Gobiet et al., 2014)
 
 + Current Alpine Climate (Schar et al., 1998)
+
++ https://www.sciencedirect.com/science/article/pii/S0924271623001612
