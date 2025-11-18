@@ -42,13 +42,13 @@ L'area di studio comprende sette valli che sono state scelte come area campione.
 Le valli corrispondono a tre valli in Piemonte (Valle Stura, Val di Susa e Val Grande), una valle in Lombardia (Valle Camonica), una valle in Trentino-Alto Adige (Val di Non), una valle in Veneto (Val di Zoldo) e una valle in Friuli-Venezia-Giulia (Alta valle del Tagliamento). La scelta di queste valli è stata dettata dalla volontà di studiare aree distribuite in tutto l'arco alpino e con due orientamenti principali: sono infatti state selezionate tre valli disposte con orientamento nord-sud (Val Grande, Valle Camonica e Val di Non) e quattro valli disposte con orientamento est-ovest (Valle Stura, Val di Susa, Val di Zoldo e Alta valle del Tagliamento). In questo modo, è stato possibile confrontare i dati di precipitazione e temperatura sia in funzione dei settori alpini, che in funzione dell'orientamento delle valli.
 
 Di seguito, si riportano alcune caratteristiche climatiche delle valli oggetto di studio:
-+ Valle Stura
++ **Valle Stura**
 
   La Valle Stura è orientata da est ad ovest come le valli principali delle Alpi sudoccidentali: ciò condiziona l'afflusso di aria umida marina per cui è una valle relativamente asciutta.
 ospitano gli endemismi più significativi delle Alpi ed un numero elevato di relitti tassonomici, di fitocenosi e di popolamenti esclusivi, in particolare nelle stazioni rupestri.
 Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricchezza floristica per numero e varietà di specie (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte).
 
-+ Val di Susa
++ **Val di Susa**
 
   L'apertura ad ovest, verso le Alpi francesi, condiziona un'elevata continentalità e xericità del clima per la presenza di venti dominanti occidentali che, avendo un andamento prevalentemente parallelo alla valle, determinano scarse precipitazioni e frequenti fenomeni di föhn.
   Escursioni termiche piuttosto elevate sono tipiche dell'alta Valle di Susa, mentre nel settore inferiore esse sono più moderate.
@@ -56,32 +56,33 @@ Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricch
 
   Le Serie di vegetazione forestale più diffuse e significative sono quelle del larice-pino cembro e dell'abete-picea, ma sui versanti esposti a sud il pino silvestre forma boschi stabili preclimatici. In bassa e media Valle di Susa la connotazione è decisamente submediterranea (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte).
 
-+ Val Grande
++ **Val Grande**
 
   Le precipitazioni medie annue presentano valori che compresi tra 1200 e 2500 mm, ma i  valori decrescono da est ad ovest. Il regime pluviometrico è quindi di tipo sublitoraneo alpino.
   
   La vegetazione forestale è caratterizzata, lungo l'asse vallivo principale, da cedui di castagno e boschi misti di latifoglie a struttura irregolare. Hanno un notevole sviluppo anche le peccete e le abetine variamente consociate con il faggio e i lariceti. II climax dell'abete assume particolare importanza ed estensione rispetto agli altri territori regionali (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte).
 
-+ Valle Camonica
-  La Valle Camonica è una valle orientata N-S situata nelle Alpi Retine ed è caratterizzata da ecosistemi altamente eterogenei in un territorio con un range di elevazione dai 390 m ai 3539 m s.l.m.
++ **Valle Camonica**
+
+   La Valle Camonica è una valle orientata N-S situata nelle Alpi Retine ed è caratterizzata da ecosistemi altamente eterogenei in un territorio con un range di elevazione dai 390 m ai 3539 m s.l.m.
   Il clima corrisponde al tipo sub-oceanico temperato. Il range di precipitazioni varia  da un minimo annuale di 900 mm nella parte meridionale della valle a un massimo di 2200 mm nella parte settentrionale della valle. Il regime pluviometrico mostra due picchi in primavera e autunno e due minimi in estate e inverno, con un minimo assoluto in inverno.
-  Le temperature sono caratterizzate da una media annuale di 12 °C nel fondovalle. La temperatura minima media è registrata in gennaio con circa +2 °C, mentre la temperatura massima media è registrata in luglio con circa 20 °C.
+  Le temperature sono caratterizzate da una media annuale di 12 °C nel fondovalle. La temperatura minima media è registrata in gennaio con circa +2 °C, mentre la temperatura massima media è registrata in luglio con circa 20 °C (Gerosa et al., 2013).
 
   
-+ Val di Non
++ **Val di Non**
   Situata nell'Italia nord-orientale nelle province di Trento e Bolzano, su un'area totale di 635 km2, la Val di Non è una valle N-S che rappresenta il bacino più basso del torrente Noce.
   Le precipitazioni sono intorno ai 900 mm all'anno e hanno una distribuzione annuale da equinoziale, nella parte meridionale, a continentale, nella parte settentrionale.
   Alla stazione metereologica di Romeno (975 m s.l.m.) la temperatura media annuale è di 9.1 °C (Scotton et al., 2014).
   
-+ Valle dell'Alto Tagliamento
++ **Valle dell'Alto Tagliamento**
 
   Per quanto riguarda la distribuzione delle piogge nell’arco dell’anno, durante la primavera le piogge man mano aumentano fino a raggiungere tra maggio e giugno un primo picco intorno ai 250-300 mm mensili sulle Prealpi; a luglio le piogge diminuiscono per poi risalire nuovamente durante la stagione autunnale che è decisamente la più piovosa.
 
   La temperatura media annua registra i valori piuttosto diversificati nel territorio, dove la temperatura è profondamente influenzata non solo dall’altitudine,
 ma soprattutto dall’esposizione e dall’orientamento delle catene montane delle Prealpi e Alpi Carniche e Giulie, dall’appartenenza ai sistemi idrografici e ai bacini fluviali, dalla conformazione delle valli. Considerando le temperature medie mensili, l’andamento annuale registra in generale i valori massimi nei mesi di luglio e agosto e i valori minimi tra gennaio e febbraio (ARPA FVG, 2022).
 
-+ Val di Zoldo
-
++ **Val di Zoldo**
+https://www.unitus.it/wp-content/uploads/2023/10/1_cadorelongaronesezoldo.pdf
 
 ## Dataset
 ### Dati climatici
