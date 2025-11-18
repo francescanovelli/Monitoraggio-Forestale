@@ -19,7 +19,18 @@ La localizzazione geografica e la configurazione delle Alpi le rende una regione
 Inoltre, le Alpi sono in una certa misura delimitate dalle influenze concorrenti del Mediterraneo, dell'Atlantico e, in misura minore, del Mare del Nord e del Baltico, e si trovano in una delle zone più calde delle medie latitudini dell'emisfero settentrionale a causa della vicinanza dell’influenza modulante dell’Oceano Atlantico e del serbatoio di calore rappresentato dal Mar Mediterraneo. L'arco alpino è quindi soggetto all'influenza delle tempeste che attraversano l'Atlantico o si sviluppano nel Mediterraneo, ma può anche influenzare i modelli meteorologici in diversi modi, ad esempio attraverso lo sviluppo di sistemi di bassa pressione derivanti dall'interazione tra flussi atmosferici su larga scala e topografia e nell'innesco di onde turbolente di montagna, cioè onde gravitazionali la cui influenza può essere avvertita molto a valle delle montagne stesse (Beniston, 2006).
 
 + Current Alpine Climate (Schar et al., 1998)
-Le Alpi sono un'arco montuoso di 800 km con un'ampiezza media di circa 200 km e un'altezza media di 2.5 km
+Le Alpi sono un'arco montuoso di 800 km con un'ampiezza media di circa 200 km e un'altezza media di 2.5 km.
+Al di sotto dei 1500 m s.l.m. l'area alpina meridionale è circa 2-4 K più calda di quella settemntrionale. Questa variazione spaziale lungo una distanza orizzontale di solo circa 200 km eccede i tipici gradienti latitudinali di temperatura dell'Europa centrale ed è indicativa degli effetti topografici.
+I gradienti orizzontali di temperatura sono anche osservati tra la catena alpina e le condizioni dell'atmosfera libera sopra l'avampaese adiacente, in scale temporali sia diurne che stagionali.
+La differenza termica ha un ciclo diurno pronunciato, soprattutto durante situazioni di calma con picchi relativamente più caldi durante il giorno. Esistono poi gradienti temici tra le montagne e la zona di avampaese.
+
+Le precipitazioni nelle regioni montane di solito differiscono considerevolmente da quelle delle pianure circostanti. I segnali delle precipitazioni alpine rivelano una grande variabilità spaziale dalla scala delle Alpi nella loro totalità a quella dei singoli versanti e questo riguarda sia la media nel lungo termine che la comparsa di forti precipitazioni.
+Nella zona umida settentrionale, le medie annuali eccedono i 2000 mm per anno in varie località; nella zona umida meridionale nella regione del Friuli, i valori di precipitazione raggiungono i 3000 mm per anno in alcuni punti, mentre un valore intorno ai 2500 mm per anni è osservato nella valle delle Centovalli in Ticino. In generale, le precipitazioni totali aumentano con l'altitudine, ma questa relazione mostra forti variazioni per quanto riguarda le località e le stagioni.
+
+La topografia alpina influenza la circolazione atmosferica deviando il flusso orizzontalmente e verticalmente, attraverso l'introduzione di elevate fonti e pozzi di calore sensibile e latente e attraverso l'induzione di onde che si propagano nell'atmosfera libera.
+
+Le precipitazioni totali annuali o stagionali tendono generalmente ad aumentare con la quota. Tuttavia, la relazione precipitazione-altitudine è in generale molto lontana dall'essere lineare.
+Le precipitazioni nella regione alpina sono un parametro climatico particolrmente importante e non solo per la sua rilevanza per sistemi ecologici ed economici. Siccome le precipitazioni risultano da una catena di processi completi e altamente non lineari, è molto sensibile a parametri esterni e al flusso a larga scala. Il riscaldamento globale porebbe influenzare sostanzialmente la frequenza e la distribuzione delle precipitazioni.
 
 > Ulteriori dati su precipitazioni e temperatura?
 
