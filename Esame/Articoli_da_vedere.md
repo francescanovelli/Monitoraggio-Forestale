@@ -36,7 +36,7 @@ Le attività umane stanno impattando la biodiversità in tutto il mondo.
    Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. Questi problemi richiedono attenzione immediata e sforzi di conservazione proattiva sono essenziali per minimizzare e mitigare gli impatti dell'attività umana. 
 
 
-
++ https://www.sciencedirect.com/science/article/pii/S1569843224002899
 
 -------------------------------------------------------
 
