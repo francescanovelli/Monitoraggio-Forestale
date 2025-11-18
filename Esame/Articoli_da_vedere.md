@@ -14,19 +14,6 @@ Lo studio vuole quantificiare gli effetti del cambiamento di diversi parametri c
   I dati ottenuti dal telerilevamento satellitare sono utili per monitorare e valutare i cambiamenti nella copertura vegetale regionale e globale lungo l'eterogeneità spaziale. Uno degli indici biofisici di vegetazione derivati dai satelliti più utilizzato è il Normalized Difference Vegetation Index (NDVI), che misura la greenness della copertura della vegetazione usando gli spettri di riflettanza alle lunghezze d'onda del rosso e dell'infrarosso vicino.
   > Nell'articolo ci sono altre info sull'NDVI (sottolineate in giallo)
 
-+ TerraClimate, a high-resolution global dataset of monthly climate andc limatic water balance from 1958–2015 (Abatzoglou et al., 2018)
-https://www.nature.com/articles/sdata2017191
-
-+ RandomForest: https://journals.mesopotamian.press/index.php/BJML/article/view/417/289
-
-+ Carta Forestale Italiana: https://foresta.sisef.org/contents/?id=efor4836-022
-
-+ Montrends (Alírio et al., 2025)
-https://www.sciencedirect.com/science/article/pii/S1574954125002109
-Le attività umane stanno impattando la biodiversità in tutto il mondo.
-  Il monitoraggio della biodiversità è essenziale per valutare e supportare lo stato di conservazione e i trend. Il remote sensing ha giocato un ruolo cruciale nel supportare il monitoraggio della biodiversità.
-   Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. Questi problemi richiedono attenzione immediata e sforzi di conservazione proattiva sono essenziali per minimizzare e mitigare gli impatti dell'attività umana. 
-
 + Mountain weather and climate: A general overview and a focus on climatic change in the Alps (Beniston, 2006)
 Siccome il clima esercita un controllo fondamentale su molti sistemi biologici, fisici e chimici nelle aree montuose, è interessante valutare le caratteristiche del clima regionali in regioni come le Alpi e come questi climi potrebbero cambiare in futuro in risposta alle attività umane. Infatti, le montagne sono suscettibili agli impatti di un rapido cambiamento climatici e forniscono importanti luoghi per la precoce individuazione e studio dei segnali del cambiamento climatico e i suoi impatti sui sistemi idrici, ecologici e sociali.
 I climi di montagna sono governati da quattro principali fattori, chiamati continentalità, latitudine, altitudine e topografia.
