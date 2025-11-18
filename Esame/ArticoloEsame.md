@@ -41,11 +41,32 @@ L'area di studio comprende sette valli che sono state scelte come area campione.
 
 Le valli corrispondono a tre valli in Piemonte (Valle Stura, Val di Susa e Val Grande), una valle in Lombardia (Valle Camonica), una valle in Trentino-Alto Adige (Val di Non), una valle in Veneto (Val di Zoldo) e una valle in Friuli-Venezia-Giulia (Alta valle del Tagliamento). La scelta di queste valli è stata dettata dalla volontà di studiare aree distribuite in tutto l'arco alpino e con due orientamenti principali: sono infatti state selezionate tre valli disposte con orientamento nord-sud (Val Grande, Valle Camonica e Val di Non) e quattro valli disposte con orientamento est-ovest (Valle Stura, Val di Susa, Val di Zoldo e Alta valle del Tagliamento). In questo modo, è stato possibile confrontare i dati di precipitazione e temperatura sia in funzione dei settori alpini, che in funzione dell'orientamento delle valli.
 
-Di seguito, si riportano alcune caratteristiche climatiche delle valli oggetto di studio:
+Di seguito, si riportano alcune caratteristiche climatiche delle valli oggetto di studio (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte):
 + Valle Stura
+
   La Valle Stura è orientata da est ad ovest come le valli principali delle Alpi sudoccidentali: ciò condiziona l'afflusso di aria umida marina per cui è una valle relativamente asciutta.
 ospitano gli endemismi più significativi delle Alpi ed un numero elevato di relitti tassonomici, di fitocenosi e di popolamenti esclusivi, in particolare nelle stazioni rupestri.
 Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricchezza floristica per numero e varietà di specie.
+
++ Val di Susa
+
+  L'apertura ad ovest, verso le Alpi francesi, condiziona un'elevata continentalità e xericità del clima per la presenza di venti dominanti occidentali che, avendo un andamento prevalentemente parallelo alla valle, determinano scarse precipitazioni e frequenti fenomeni di föhn.
+  Escursioni termiche piuttosto elevate sono tipiche dell'alta Valle di Susa, mentre nel settore inferiore esse sono più moderate.
+  È un settore ben definito climaticamente rispetto a quelli circostanti per i bassi valori delle precipitazioni annue (inferiori a 1000 mm) ed estive, che in alta Val di Susa scendono fino a 600 mm. Queste caratteristiche, accanto alle temperature medie miti dei mesi più freddi, spiega la presenza di numerose specie mediterranee in oasi xerotermiche della media e bassa Valle di Susa.
+
+  Le Serie di vegetazione forestale più diffuse e significative sono quelle del larice-pino cembro e dell'abete-picea, ma sui versanti esposti a sud il pino silvestre forma boschi stabili preclimatici. In bassa e media Valle di Susa la connotazione è decisamente submediterranea.
+
++ Val Grande
+
+  Le precipitazioni medie annue presentano valori che compresi tra 1200 e 2500 mm, ma i  valori decrescono da est ad ovest. Il regime pluviometrico è quindi di tipo sublitoraneo alpino.
+
+  La vegetazione forestale è caratterizzata, lungo l'asse vallivo principale, da cedui di castagno e boschi misti di latifoglie a struttura irregolare. Hanno un notevole sviluppo anche le peccete e le abetine variamente consociate con il faggio e i lariceti. II climax dell'abete assume particolare importanza ed estensione rispetto agli altri territori regionali.
+
++ Valle Camonica
++ Val di Non
++ Valle dell'Alto Tagliamento
++ Val di Zoldo
+
 
 ## Dataset
 ### Dati climatici
@@ -90,31 +111,6 @@ https://iacweb.ethz.ch/doc/publications/1998_Schar_AlpineClimate.pdf
 
 --------------------------------
 
-# CARATTERISTICHE DELLE VALLI
-
-
-## VAL DI SUSA
-+ Clima: settori ben definiti climaticamente rispetto a quelli circostanti per i bassi valori delle precipitazioni annue ed estive, le prime inferiori a 1000 mm; quelli estremi si registrano in alta Valle di Susa e scendono fino a 600 mm.
-L'apertura ad ovest, verso le Alpi francesi, condiziona una elevata continentalità e xericità del clima per la presenza di venti dominanti occidentali che, avendo un andamento prevalentemente parallelo all'asta principale della Valle,
-determinano scarse precipitazioni e frequenti fenomeni di föhn. Escursioni termiche piuttosto elevate sono tipiche dell'alta Valle di Susa, mentre nel settore inferiore esse sono più moderate.
-Ciò, accanto alla mitezza delle temperature medie dei mesi più freddi, spiega la presenza di numerose specie mediterranee (leccio, Juniperus oxycedrus) in oasi xerotermiche della media e bassa Valle di Susa. 
-
-
-+ Vegetazione e Suolo: l'impronta steppica della vegetazione è generalizzata in tutti i settori ed evidenziata da numerose specie caratteristiche.
-L'alta Valle di Susa e Chisone sono comunque caratterizzate da caratteri steppici e più decisamente continentali rispetto alla bassa Valle di Susa.
-Le Serie di vegetazione forestale più diffuse e significative sono quelle del larice-pino cembro e dell'abete-picea, ma sui versanti esposti a sud il pino silvestre forma boschi stabili preclimatici.
-In bassa e media Valle di Susa la connotazione è decisamente submediterranea.
-
-## VAL GRANDE
-+ Clima: precipitazioni medie annue tra 1200 e 2500 mm (Val Cannobina). I valori decrescono da est ad ovest. Le medie del trimestre estivo sono sempre elevate e superiori a 300 mm. Regime pluviometrico di tipo sublitoraneo alpino.
-
-+ Vegetazione e suoli : la vegetazione forestale è caratterizzata, lungo l'asse vallivo principale, da cedui di castagno e boschi misti di latifoglie a struttura irregolare.
-Notevole sviluppo hanno le peccete e le abetine variamente consociate con il faggio ed i lariceti. II climax dell'abete assume particolare importanza ed estensione rispettoagli altri territori regionali.
-
-## VALLE CAMONICA
-
-## VAL DI NON
-
 ## VALLE DELL'ALTO TAGLIAMENTO
 + Clima:
    + Precipitazioni: Per quanto riguarda la distribuzione delle piogge nell’arco dell’anno, in montagna come in tutta la regione, il mese mediamente meno piovoso è febbraio,
@@ -127,8 +123,6 @@ Notevole sviluppo hanno le peccete e le abetine variamente consociate con il fag
     Considerando le temperature medie mensili, l’andamento annuale registra in generale i valori massimi nei mesi di luglio e agosto e i valori minimi tra gennaio e febbraio.
 
 + Vegetazione e suolo: 
-
-## VALLE DI ZOLDO
 
 # DA FARE
 + Interfaccia utente
