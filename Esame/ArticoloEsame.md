@@ -129,3 +129,17 @@ https://iacweb.ethz.ch/doc/publications/1998_Schar_AlpineClimate.pdf
 https://www.sciencedirect.com/science/article/pii/S0167880914003934
 + Case study: Valle Camonica and the Adamello Park (Gerosa et al., 2013)
 https://books.google.it/books?hl=it&lr=&id=dOacDwAAQBAJ&oi=fnd&pg=PA323&dq=%22camonica+valley%22+and+%22precipitation%22&ots=EBD2H_ydzS&sig=JnGP-ADlFloO4590K_iwGVb8REs&redir_esc=y#v=onepage&q&f=false
+
+
++ TerraClimate, a high-resolution global dataset of monthly climate andc limatic water balance from 1958–2015 (Abatzoglou et al., 2018)
+https://www.nature.com/articles/sdata2017191
+
++ RandomForest: https://journals.mesopotamian.press/index.php/BJML/article/view/417/289
+
++ Carta Forestale Italiana: https://foresta.sisef.org/contents/?id=efor4836-022
+
++ Montrends (Alírio et al., 2025)
+https://www.sciencedirect.com/science/article/pii/S1574954125002109
+Le attività umane stanno impattando la biodiversità in tutto il mondo.
+  Il monitoraggio della biodiversità è essenziale per valutare e supportare lo stato di conservazione e i trend. Il remote sensing ha giocato un ruolo cruciale nel supportare il monitoraggio della biodiversità.
+   Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. Questi problemi richiedono attenzione immediata e sforzi di conservazione proattiva sono essenziali per minimizzare e mitigare gli impatti dell'attività umana. 
