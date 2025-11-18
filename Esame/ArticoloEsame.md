@@ -103,7 +103,7 @@ I dati territoriali provangono dalla digitalizzazione delle valli con il softwar
 ### Medoid
 An assessment approach for pixel-based image composites (Francini et al.,2023)
 + Il telerilevamento è tra le maggiori fonti del monitoraggio delle dinamiche forestali e molto spesso le immagini che restituiscono i dati telerilevati presentano pixel di nuvole o nebbia poco utili per guardare la copertura del suolo. Ci sono però metodi per evitare questi pixel prodotti tramite dei composites come il Medoid. Il Medoid è un esempio di metodologia del pixel-based compositing, dove il suo scopo principale è quello di creare delle immagini senza nuvole o nebbia, questo perchè la nebbia come le nuvole o comunque le ombre limitano le osservazioni del suolo e cosi il numero di osservazioni disponibili risultando come data gaps. I composite pixel-based sono stati molto utilizzati per i distrubi forestali, per la preddizione e la mappatura delle foreste. In questo modo il Medoid unisce diverse osservazioni facendole risultare in un'unica immagine, frutto di un collage di molte immagini, di conseguenza l'immagine non ha un riferimento specifico ad una sola data ma rappresenta un range di date. In questo modo ogin pixel ha un immagine donatricie e i diversi pixel arrivando da diverse immagini donatrici.
-+ L'obiettivo principale è quello di formare un immagine finale dove i valori di riflettanza dei vari pixel siano il più vicino possibile
++ L'obiettivo principale è quello di formare un immagine finale dove i valori di riflettanza dei vari pixel siano il più vicino possibile alla media della rifelttanza calcolata datutte e immagini che donano i pixel senza nuvole. 
 
 ### Random Forest
 Random Forest Algorithm Overview (Salman et al., 2024)
