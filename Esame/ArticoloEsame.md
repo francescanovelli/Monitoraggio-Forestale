@@ -41,12 +41,12 @@ L'area di studio comprende sette valli che sono state scelte come area campione.
 
 Le valli corrispondono a tre valli in Piemonte (Valle Stura, Val di Susa e Val Grande), una valle in Lombardia (Valle Camonica), una valle in Trentino-Alto Adige (Val di Non), una valle in Veneto (Val di Zoldo) e una valle in Friuli-Venezia-Giulia (Alta valle del Tagliamento). La scelta di queste valli è stata dettata dalla volontà di studiare aree distribuite in tutto l'arco alpino e con due orientamenti principali: sono infatti state selezionate tre valli disposte con orientamento nord-sud (Val Grande, Valle Camonica e Val di Non) e quattro valli disposte con orientamento est-ovest (Valle Stura, Val di Susa, Val di Zoldo e Alta valle del Tagliamento). In questo modo, è stato possibile confrontare i dati di precipitazione e temperatura sia in funzione dei settori alpini, che in funzione dell'orientamento delle valli.
 
-Di seguito, si riportano alcune caratteristiche climatiche delle valli oggetto di studio (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte):
+Di seguito, si riportano alcune caratteristiche climatiche delle valli oggetto di studio:
 + Valle Stura
 
   La Valle Stura è orientata da est ad ovest come le valli principali delle Alpi sudoccidentali: ciò condiziona l'afflusso di aria umida marina per cui è una valle relativamente asciutta.
 ospitano gli endemismi più significativi delle Alpi ed un numero elevato di relitti tassonomici, di fitocenosi e di popolamenti esclusivi, in particolare nelle stazioni rupestri.
-Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricchezza floristica per numero e varietà di specie.
+Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricchezza floristica per numero e varietà di specie (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte).
 
 + Val di Susa
 
@@ -54,17 +54,29 @@ Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricch
   Escursioni termiche piuttosto elevate sono tipiche dell'alta Valle di Susa, mentre nel settore inferiore esse sono più moderate.
   È un settore ben definito climaticamente rispetto a quelli circostanti per i bassi valori delle precipitazioni annue (inferiori a 1000 mm) ed estive, che in alta Val di Susa scendono fino a 600 mm. Queste caratteristiche, accanto alle temperature medie miti dei mesi più freddi, spiega la presenza di numerose specie mediterranee in oasi xerotermiche della media e bassa Valle di Susa.
 
-  Le Serie di vegetazione forestale più diffuse e significative sono quelle del larice-pino cembro e dell'abete-picea, ma sui versanti esposti a sud il pino silvestre forma boschi stabili preclimatici. In bassa e media Valle di Susa la connotazione è decisamente submediterranea.
+  Le Serie di vegetazione forestale più diffuse e significative sono quelle del larice-pino cembro e dell'abete-picea, ma sui versanti esposti a sud il pino silvestre forma boschi stabili preclimatici. In bassa e media Valle di Susa la connotazione è decisamente submediterranea (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte).
 
 + Val Grande
 
   Le precipitazioni medie annue presentano valori che compresi tra 1200 e 2500 mm, ma i  valori decrescono da est ad ovest. Il regime pluviometrico è quindi di tipo sublitoraneo alpino.
-
-  La vegetazione forestale è caratterizzata, lungo l'asse vallivo principale, da cedui di castagno e boschi misti di latifoglie a struttura irregolare. Hanno un notevole sviluppo anche le peccete e le abetine variamente consociate con il faggio e i lariceti. II climax dell'abete assume particolare importanza ed estensione rispetto agli altri territori regionali.
+  
+  La vegetazione forestale è caratterizzata, lungo l'asse vallivo principale, da cedui di castagno e boschi misti di latifoglie a struttura irregolare. Hanno un notevole sviluppo anche le peccete e le abetine variamente consociate con il faggio e i lariceti. II climax dell'abete assume particolare importanza ed estensione rispetto agli altri territori regionali (Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte).
 
 + Valle Camonica
+
+  
 + Val di Non
+  Situata nell'Italia nord-orientale nelle province di Trento e Bolzano, su un'area totale di 635 km2, la Val di Non è una valle N-S che rappresenta il bacino più basso del torrente Noce.
+  Le precipitazioni sono intorno ai 900 mm all'anno e hanno una distribuzione annuale da equinoziale, nella parte meridionale, a continentale, nella parte settentrionale.
+  Alla stazione metereologica di Romeno (975 m s.l.m.) la temperatura media annuale è di 9.1 °C (Scotton et al., 2014).
+  
 + Valle dell'Alto Tagliamento
+
+  Per quanto riguarda la distribuzione delle piogge nell’arco dell’anno, durante la primavera le piogge man mano aumentano fino a raggiungere tra maggio e giugno un primo picco intorno ai 250-300 mm mensili sulle Prealpi; a luglio le piogge diminuiscono per poi risalire nuovamente durante la stagione autunnale che è decisamente la più piovosa.
+
+  La temperatura media annua registra i valori piuttosto diversificati nel territorio, dove la temperatura è profondamente influenzata non solo dall’altitudine,
+ma soprattutto dall’esposizione e dall’orientamento delle catene montane delle Prealpi e Alpi Carniche e Giulie, dall’appartenenza ai sistemi idrografici e ai bacini fluviali, dalla conformazione delle valli. Considerando le temperature medie mensili, l’andamento annuale registra in generale i valori massimi nei mesi di luglio e agosto e i valori minimi tra gennaio e febbraio (ARPA FVG, 2022).
+
 + Val di Zoldo
 
 
@@ -96,8 +108,10 @@ Random Forest Algorithm Overview (Salman et al., 2024)
 Ramndom Forest elabora anche dataset particolaremnte grandi e con molte variabili e funziona anche con dati sbilanciati e alla presenza di valori mancanti.
 
 # BIBLIOGRAFIA
-+ https://www.regione.piemonte.it/giscartografia/Parchi/schede_settori_ecogeografici.pdf
-+ https://www.arpa.fvg.it/temi/temi/meteo-e-clima/ultimi-approfondimenti-pubblicati/clima-e-cambiamenti-climatici-nelle-aree-montane-del-friuli-venezia-giulia/
++ Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte
+https://www.regione.piemonte.it/giscartografia/Parchi/schede_settori_ecogeografici.pdf
++ Clima e cambiamenti climatici nelle aree montane del Friuli Venezia Giulia (ARPA FVG, 2022)
+https://www.arpa.fvg.it/temi/temi/meteo-e-clima/ultimi-approfondimenti-pubblicati/clima-e-cambiamenti-climatici-nelle-aree-montane-del-friuli-venezia-giulia/
 + Geoportale Regione Piemonte: https://geoportale.igr.piemonte.it/cms/
 + Geoportale Regione Lombardia: https://www.geoportale.regione.lombardia.it/
 + Portale Geoocartografico del Trentino: http://www.territorio.provincia.tn.it/portal/server.pt/community/portale_geocartografico_trentino/254
@@ -107,22 +121,11 @@ Ramndom Forest elabora anche dataset particolaremnte grandi e con molte variabil
 https://link.springer.com/article/10.1007/s10750-005-1802-0
 + Current Alpine Climate (Schar et al., 1998)
 https://iacweb.ethz.ch/doc/publications/1998_Schar_AlpineClimate.pdf
++ Semi-natural grasslands of the Non Valley (Eastern Italian Alps): Agronomic and environmental value of traditional and new Alpine hay-meadow types (Scotton et al., 2014)
+https://www.sciencedirect.com/science/article/pii/S0167880914003934
 
 
 --------------------------------
-
-## VALLE DELL'ALTO TAGLIAMENTO
-+ Clima:
-   + Precipitazioni: Per quanto riguarda la distribuzione delle piogge nell’arco dell’anno, in montagna come in tutta la regione, il mese mediamente meno piovoso è febbraio,
-     con valori intorno ai 120-140 mm nella zona prealpina e molto inferiori nelle zone più interne (50-80 mm).
-     Durante la primavera le piogge man mano aumentano fino a raggiungere tra maggio e giugno un primo picco intorno ai 250-300 mm mensili sulle Prealpi.
-     A luglio le piogge diminuiscono per poi risalire nuovamente a partire dalla terza decade di agosto. La stagione autunnale è decisamente la più piovosa.
-
-  + Temperature: La temperatura media annua registra i valori piuttosto diversificati nel territorio montuoso della regione, dove la temperatura è profondamente influenzata non solo dall’altitudine,
-    ma soprattutto dall’esposizione e dall’orientamento delle catene montane delle Prealpi e Alpi Carniche e Giulie, dall’appartenenza ai sistemi idrografici e ai bacini fluviali, dalla conformazione delle valli.
-    Considerando le temperature medie mensili, l’andamento annuale registra in generale i valori massimi nei mesi di luglio e agosto e i valori minimi tra gennaio e febbraio.
-
-+ Vegetazione e suolo: 
 
 # DA FARE
 + Interfaccia utente
