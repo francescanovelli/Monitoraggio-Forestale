@@ -9,7 +9,21 @@ In questo contesto, il telerilevamento satellitare è uno strumento molto import
 
 Nello specifico, Google Earth Engine (GEE; https://earthengine.google.com/) è una piattaforma cloud-based sviluppata da Google per analisi dei dati ambientali a scala planetaria: attarverso GEE scienziati, ricercatori e sviluppatori possono analizzare una vasta gamma di dati geospaziali, tramite l'accesso a varie immagini satellitari e ad altri dataset geospaziali, come il clima, la copertura e l'uso del suolo e dati terrestri (Alírio et al., 2025).
 
-# MATERIALI E METODI
+## L'arco alpino
+### Topografia dell'arco alpino
+Mettere grafico come in:  21st century climate change in the European Alps — A review (Gobiet et al., 2014)
+
+### Clima nell'arco alpino
+Le Alpi sono costituite da un arco che si estende prima in direzione nord–sud dal Mediterraneo in Francia, poi curva verso est attraverso la Svizzera e infine si estende in direzione est–ovest fino all'Austria orientale (Beniston, 2006).
+La localizzazione geografica e la configurazione delle Alpi le rende una regione particolarmente interessante per molti studi climatici e ambientali, perchè sono caratterizzate da influenze oceaniche, continentali, polari e, occasionalmente, sahariane (Beniston, 2006). 
+Inoltre, le Alpi sono in una certa misura delimitate dalle influenze concorrenti del Mediterraneo, dell'Atlantico e, in misura minore, del Mare del Nord e del Baltico, e si trovano in una delle zone più calde delle medie latitudini dell'emisfero settentrionale a causa della vicinanza dell’influenza modulante dell’Oceano Atlantico e del serbatoio di calore rappresentato dal Mar Mediterraneo. L'arco alpino è quindi soggetto all'influenza delle tempeste che attraversano l'Atlantico o si sviluppano nel Mediterraneo, ma può anche influenzare i modelli meteorologici in diversi modi, ad esempio attraverso lo sviluppo di sistemi di bassa pressione derivanti dall'interazione tra flussi atmosferici su larga scala e topografia e nell'innesco di onde turbolente di montagna, cioè onde gravitazionali la cui influenza può essere avvertita molto a valle delle montagne stesse (Beniston, 2006).
+
++ Current Alpine Climate (Schar et al., 1998)
+Le Alpi sono un'arco montuoso di 800 km con un'ampiezza media di circa 200 km e un'altezza media di 2.5 km
+
+> Ulteriori dati su precipitazioni e temperatura?
+
+# MATERIALI
 ## Area di studio
 
 L'area di studio comprende sette valli che sono state scelte come area campione.
@@ -32,11 +46,26 @@ I dati di base della distribuzione delle tipologie di vegetazione nelle valli ar
 ### Dati territoriali
 I dati territoriali provangono dalla digitalizzazione delle valli con il software QGIS utilizzando layer presenti sui geoportali delle regioni italiane interessate (Piemonte, Lombardia, Trentino Alto-Adige, Veneto, Friuli-Venezia-Giulia).
 
+# METODI
 ### Random Forest
 Random Forest Algorithm Overview (Salman et al., 2024)
 +   Random Forest è un tecnica di machine learning usato nel campo del data mining, sia per la classificazione che per la creazione di modelli predittivi. Questa tecnica si basa sulla creazione di molteplici alberi decisionali (decision tree), generati a partire da sottoinsiemi casuali del dataset originale. Ogni albero viene quindi allenato su una porzione dei dati e le sue predizioni vengono successivamente aggregate per ottenere il modello finale. Ogni albero decisonale è generato in maniera del tutto casuale, sia per quanto riguarda la selezione dei dati sia nella scelta delle variabili usate per le suddivisioni.
 
 Ramndom Forest elabora anche dataset particolaremnte grandi e con molte variabili e funziona anche con dati sbilanciati e alla presenza di valori mancanti.
+
+# BIBLIOGRAFIA
++ https://www.regione.piemonte.it/giscartografia/Parchi/schede_settori_ecogeografici.pdf
++ https://www.arpa.fvg.it/temi/temi/meteo-e-clima/ultimi-approfondimenti-pubblicati/clima-e-cambiamenti-climatici-nelle-aree-montane-del-friuli-venezia-giulia/
++ Geoportale Regione Piemonte: https://geoportale.igr.piemonte.it/cms/
++ Geoportale Regione Lombardia: https://www.geoportale.regione.lombardia.it/
++ Portale Geoocartografico del Trentino: http://www.territorio.provincia.tn.it/portal/server.pt/community/portale_geocartografico_trentino/254
++ Geoportale Regione Veneto: https://idt2.regione.veneto.it/
++ Geoportale Friuli-Venezia-Giulia: https://www.regione.fvg.it/rafvg/cms/RAFVG/ambiente-territorio/conoscere-ambiente-territorio/FOGLIA4/
++ Mountain weather and climate: A general overview and a focus on climatic change in the Alps
+https://link.springer.com/article/10.1007/s10750-005-1802-0
++ Current Alpine Climate (Schar et al., 1998)
+https://iacweb.ethz.ch/doc/publications/1998_Schar_AlpineClimate.pdf
+
 
 --------------------------------
 
@@ -126,11 +155,14 @@ Le attività umane stanno impattando la biodiversità in tutto il mondo.
   Il monitoraggio della biodiversità è essenziale per valutare e supportare lo stato di conservazione e i trend. Il remote sensing ha giocato un ruolo cruciale nel supportare il monitoraggio della biodiversità.
    Le attività umane e il sovrappopolamento sono responsabili dei severi problemi di conservazione del Pianeta Terra, come la perdità di biodiversità, la distruzione degli habitat e il cambiamento climatico. Questi problemi richiedono attenzione immediata e sforzi di conservazione proattiva sono essenziali per minimizzare e mitigare gli impatti dell'attività umana. 
 
-# BIBLIOGRAFIA E SITOGRAFIA
-+ https://www.regione.piemonte.it/giscartografia/Parchi/schede_settori_ecogeografici.pdf
-+ https://www.arpa.fvg.it/temi/temi/meteo-e-clima/ultimi-approfondimenti-pubblicati/clima-e-cambiamenti-climatici-nelle-aree-montane-del-friuli-venezia-giulia/
-+ Geoportale Regione Piemonte: https://geoportale.igr.piemonte.it/cms/
-+ Geoportale Regione Lombardia: https://www.geoportale.regione.lombardia.it/
-+ Portale Geoocartografico del Trentino: http://www.territorio.provincia.tn.it/portal/server.pt/community/portale_geocartografico_trentino/254
-+ Geoportale Regione Veneto: https://idt2.regione.veneto.it/
-+ Geoportale Friuli-Venezia-Giulia: https://www.regione.fvg.it/rafvg/cms/RAFVG/ambiente-territorio/conoscere-ambiente-territorio/FOGLIA4/
++ Mountain weather and climate: A general overview and a focus on climatic change in the Alps (Beniston, 2006)
+Siccome il clima esercita un controllo fondamentale su molti sistemi biologici, fisici e chimici nelle aree montuose, è interessante valutare le caratteristiche del clima regionali in regioni come le Alpi e come questi climi potrebbero cambiare in futuro in risposta alle attività umane. Infatti, le montagne sono suscettibili agli impatti di un rapido cambiamento climatici e forniscono importanti luoghi per la precoce individuazione e studio dei segnali del cambiamento climatico e i suoi impatti sui sistemi idrici, ecologici e sociali.
+I climi di montagna sono governati da quattro principali fattori, chiamati continentalità, latitudine, altitudine e topografia.
+Le Alpi europee agiscono da confine tra i climi mediterraneo, atlantico e continentale.
+Le Alpi europee sono la meglio conosciuta area del mondo in termini di meteo e clima e delle caratteristiche ambientali correlate.
+Le Alpi presentano contemporaneamente caratteristiche legate alla continentalità e alla latitudine.
+Esiste un ampio consenso sulla minaccia reale che il brusco riscaldamento globale rappresenta per un’ampia gamma di sistemi ambientali, sociali ed economici sia a livello globale che regionale, come nelle Alpi.
+
++ 21st century climate change in the European Alps—Areview (Gobiet et al., 2014)
+
++ Current Alpine Climate (Schar et al., 1998)
