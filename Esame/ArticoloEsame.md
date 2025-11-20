@@ -9,15 +9,23 @@ In questo contesto, il telerilevamento satellitare è uno strumento molto import
 
 Nello specifico, Google Earth Engine (GEE; https://earthengine.google.com/) è una piattaforma cloud-based sviluppata da Google per analisi dei dati ambientali a scala planetaria: attarverso GEE scienziati, ricercatori e sviluppatori possono analizzare una vasta gamma di dati geospaziali, tramite l'accesso a varie immagini satellitari e ad altri dataset geospaziali, come il clima, la copertura e l'uso del suolo e dati terrestri (Alírio et al., 2025).
 
+SCOPO DEL PROGETTO E OBIETTIVI
+STATO DELL'ARTE (ARTICOLI PRECEDENTI SU INFLUENZA PRECIPITAZIONI E TEMPERATURA SULLE TIPOLOGIE DI VEGETAZIONE + MODELLO PER CLASSIFICARE)
+COS'È UN MODELLO
+
 ## L'arco alpino
 Le Alpi sono un'arco montuoso di 800 km con un'ampiezza media di circa 200 km e un'altezza media di 2.5 km e si estendono prima in direzione nord–sud dal Mediterraneo in Francia, poi curvano verso est attraverso la Svizzera e infine si estendono in direzione est–ovest fino all'Austria orientale (Beniston, 2006; Schar et al., 1998).
 La localizzazione geografica e la configurazione delle Alpi le rende una regione particolarmente interessante per molti studi climatici e ambientali, perchè sono caratterizzate da influenze oceaniche, continentali, polari e, occasionalmente, sahariane (Beniston, 2006).
+
+GEOLOGIA E PEDOLOGIA (DA CERCARE ARTICOLI)
 
 ### Topografia dell'arco alpino
 
 <img src="../Esame/TopografiaAlpi.png" />
 
 > Topografia e localizzazione delle Alpi europee (Gobiet et al., 2014)
+
+COMMENTO SU TOPOGRAFIA
 
 ### Clima nell'arco alpino
 Le Alpi sono in una certa misura delimitate dalle influenze concorrenti del Mediterraneo, dell'Atlantico e, in misura minore, del Mare del Nord e del Baltico, e si trovano in una delle zone più calde delle medie latitudini dell'emisfero settentrionale a causa della vicinanza dell’influenza modulante dell’Oceano Atlantico e del serbatoio di calore rappresentato dal Mar Mediterraneo. L'arco alpino è quindi soggetto all'influenza delle tempeste che attraversano l'Atlantico o si sviluppano nel Mediterraneo, ma può anche influenzare i modelli meteorologici in diversi modi, ad esempio attraverso lo sviluppo di sistemi di bassa pressione derivanti dall'interazione tra flussi atmosferici su larga scala e topografia e nell'innesco di onde turbolente di montagna, cioè onde gravitazionali la cui influenza può essere avvertita molto a valle delle montagne stesse (Beniston, 2006).
@@ -31,8 +39,6 @@ In generale, le precipitazioni totali annuali e stagionali aumentano con l'altit
 Le precipitazioni nella regione alpina sono un parametro climatico particolarmente importante e non solo per la sua rilevanza per sistemi ecologici ed economici: siccome le precipitazioni risultano da una catena di processi complessi e non lineari, è molto sensibile a parametri esterni; quindi, il riscaldamento globale porebbe influenzare sostanzialmente la frequenza e la distribuzione delle precipitazioni (Schar et al., 1998).
 Nella zona umida settentrionale, le medie annuali eccedono i 2000 mm per anno in varie località; nella zona umida meridionale nella regione del Friuli, i valori di precipitazione raggiungono i 3000 mm per anno in alcuni punti, mentre un valore intorno ai 2500 mm per anni è osservato nella valle delle Centovalli in Ticino (Schar et al., 1998).
 
-
-> Ulteriori dati su precipitazioni e temperatura?
 
 # MATERIALI
 ## Area di studio
@@ -70,6 +76,7 @@ Per quanto riguarda la vegetazione, è caratterizzata da una straordinaria ricch
 
   
 + **Val di Non**
+
   Situata nell'Italia nord-orientale nelle province di Trento e Bolzano, su un'area totale di 635 km2, la Val di Non è una valle N-S che rappresenta il bacino più basso del torrente Noce.
   Le precipitazioni sono intorno ai 900 mm all'anno e hanno una distribuzione annuale da equinoziale, nella parte meridionale, a continentale, nella parte settentrionale.
   Alla stazione metereologica di Romeno (975 m s.l.m.) la temperatura media annuale è di 9.1 °C (Scotton et al., 2014).
@@ -84,6 +91,9 @@ ma soprattutto dall’esposizione e dall’orientamento delle catene montane del
 + **Val di Zoldo**
 https://www.unitus.it/wp-content/uploads/2023/10/1_cadorelongaronesezoldo.pdf
 
+TABELLA ALTITUDINE MEDIA DELLE VALLI, ESPOSIZIONE, ETC. --> DEM SU GEE
+EVENTUALMENTE MODIFICARE GRAFICO QUOTA
+
 ## Dataset
 ### Dati climatici
 
@@ -93,14 +103,24 @@ TerraClimate usa un'interpolazione assistita climaticamente, combinando le norma
 
 TerraClimate è ad accesso pubblico posizionato in una repository dell'università di Idaho’s Northwest Knowledge Network; i dati sono aggiornati periodicamente una volta che il dato dell'anno è diventato disponibile (Abatzoglou et al., 2018).
 
+
 ### Dati sulla distribuzione delle tipologie di vegetazione
 I dati di base della distribuzione delle tipologie di vegetazione nelle valli area di studio provengono, invece, dalla Carta Forestale Italiana.
-+ La Carta Forestale Italiana nasce per creare una mappatura e una classificazione delle superfici forestali a livello nazionale, per disporre di informazioni affidabili sugli ecosistemi forestali. Queste informazioni servono per adeguarsi a degli standard internazionali, in modo da raggiungere gli obiettvi stategici europei e di sostenibilità economica e sociale. Si tratta di una carta multidefinizione basata sulla geometria dell’ultimo volo AGEA disponibile, a scala 1:10.000. La Carta Forestale Italiana è sta creata su due criteri: la definizione di bosco da adottare e il sistema di nomenclatura, partendo da definizioni già esistenti. 
+
+La Carta Forestale Italiana nasce per creare una mappatura e una classificazione delle superfici forestali a livello nazionale, per disporre di informazioni affidabili sugli ecosistemi forestali. Queste informazioni servono per adeguarsi a degli standard internazionali, in modo da raggiungere gli obiettvi stategici europei e di sostenibilità economica e sociale. Si tratta di una carta multidefinizione basata sulla geometria dell’ultimo volo AGEA disponibile, a scala 1:10.000. La Carta Forestale Italiana è sta creata su due criteri: la definizione di bosco da adottare e il sistema di nomenclatura, partendo da definizioni già esistenti (Mattioli et al., 2025). 
   
 ### Dati territoriali
 I dati territoriali provangono dalla digitalizzazione delle valli con il software QGIS utilizzando layer presenti sui geoportali delle regioni italiane interessate (Piemonte, Lombardia, Trentino Alto-Adige, Veneto, Friuli-Venezia-Giulia).
 
 # METODI
+SPIEGAZIONE DETTAGLIATA DEL PROCEDIMENTO DEL CODICE
+
+SVILUPPO INTERFACCIA UTENTE
++ anno
++ valle
++ palette
++ tipologia di vegetazione o tutta
+
 ### Medoid
 An assessment approach for pixel-based image composites (Francini et al.,2023)
 + Il telerilevamento è tra le maggiori fonti del monitoraggio delle dinamiche forestali e molto spesso le immagini che restituiscono i dati telerilevati presentano pixel di nuvole o nebbia poco utili per guardare la copertura del suolo. Ci sono però metodi per evitare questi pixel prodotti tramite dei composites come il Medoid. Il Medoid è un esempio di metodologia del pixel-based compositing, dove il suo scopo principale è quello di creare delle immagini senza nuvole o nebbia, questo perchè la nebbia come le nuvole o comunque le ombre limitano le osservazioni del suolo e cosi il numero di osservazioni disponibili risultando come data gaps. I composite pixel-based sono stati molto utilizzati per i distrubi forestali, per la preddizione e la mappatura delle foreste. In questo modo il Medoid unisce diverse osservazioni facendole risultare in un'unica immagine, frutto di un collage di molte immagini, di conseguenza l'immagine non ha un riferimento specifico ad una sola data ma rappresenta un range di date. In questo modo ogin pixel ha un immagine donatricie e i diversi pixel arrivando da diverse immagini donatrici. L'obiettivo principale è quello di formare un immagine finale dove i valori di riflettanza dei vari pixel siano il più vicino possibile alla media della rifelttanza calcolata datutte e immagini che donano i pixel senza nuvole. 
@@ -110,6 +130,25 @@ Random Forest Algorithm Overview (Salman et al., 2024)
 +   Random Forest è un tecnica di machine learning usato nel campo del data mining, sia per la classificazione che per la creazione di modelli predittivi. Questa tecnica si basa sulla creazione di molteplici alberi decisionali (decision tree), generati a partire da sottoinsiemi casuali del dataset originale. Ogni albero viene quindi allenato su una porzione dei dati e le sue predizioni vengono successivamente aggregate per ottenere il modello finale. Ogni albero decisonale è generato in maniera del tutto casuale, sia per quanto riguarda la selezione dei dati sia nella scelta delle variabili usate per le suddivisioni.
 
 Ramndom Forest elabora anche dataset particolaremnte grandi e con molte variabili e funziona anche con dati sbilanciati e alla presenza di valori mancanti.
+
+# RISULTATI
+PRINCIPALI RISULTATI OTTENUTI
+FIGURE, MAPPE E GRAFICI
+
+# DISCUSSIONE
+Discussione dei risultati 
++ Perché i risultati ottenuti sono utili? 
++ Come aiutano a colmare le lacune identificate nell’introduzione?
+
+# CONCLUSIONI
++ La conclusione non è semplicemente un riassunto dei risultatri, ma una riflessione sul significato più ampio dello studio: cosa abbiamo imparato, perché è rilevante.
++ Dovrebbe rispondere alla domanda “So what?” (“E allora? Perché questo studio conta?”) — in che modo il lavoro contribuisce alla conoscenza, alla pratica o al contesto più ampio. 
++ Deve evitare di introdurre nuove evidenze o argomenti che non siano già trattati nel corpo del testo. Se appropriato, può indicare prospettive future (ulteriori ricerche, applicazioni, implicazioni) e riconoscere i limiti del proprio studio (in modo conciso). 
+
+#  Highlights
++ Gli highlights sono 3-5 punti (bullet points) che riassumono i principali risultati o contributi dell’articolo.
++ Non sono un “mini‐abstract”, né una ripetizione del titolo. Devono dare rapidamente al lettore una panoramica del perché l’articolo vale la pena essere letto.
++ Hanno lo scopo di migliorare la visibilità e reperibilità dell’articolo (es. nei motori di ricerca, database)
 
 # BIBLIOGRAFIA
 + Suddivisione del Pimeonte in settori eco-geografici, Regione Piemonte
@@ -135,6 +174,6 @@ https://books.google.it/books?hl=it&lr=&id=dOacDwAAQBAJ&oi=fnd&pg=PA323&dq=%22ca
 
 + RandomForest: https://journals.mesopotamian.press/index.php/BJML/article/view/417/289
 
-+ Carta Forestale Italiana: https://foresta.sisef.org/contents/?id=efor4836-022
++ The Forest Map of Italy (CFI2020): an updated portrait of Italian forests. Mattioli et al., 2025 https://foresta.sisef.org/contents/?id=efor4836-022
 
 + Medoid https://www.sciencedirect.com/science/article/pii/S0924271623001612
