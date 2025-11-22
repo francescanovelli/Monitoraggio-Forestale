@@ -10,6 +10,9 @@ In questo contesto, il telerilevamento satellitare è uno strumento molto import
 Nello specifico, Google Earth Engine (GEE; https://earthengine.google.com/) è una piattaforma cloud-based sviluppata da Google per analisi dei dati ambientali a scala planetaria: attarverso GEE scienziati, ricercatori e sviluppatori possono analizzare una vasta gamma di dati geospaziali, tramite l'accesso a varie immagini satellitari e ad altri dataset geospaziali, come il clima, la copertura e l'uso del suolo e dati terrestri (Alírio et al., 2025).
 
 Lo scopo del progetto è osservare il cambiamento delle tipologie forestali nelle valli alpine oggetto di studio in funzione della temperatura e delle precipitazioni, ma anche dell'orientamento delle valli. In letteratura, non esiste uno studio che abbia svolto la stessa indagine: sono stati analizzati quindi diversi articoli, basati su studi simili e, sulla base di quanto realizzato in questi studi precedenti, è stato costruito questo studio.
+Alcuni studi, come quello di De Simone et al. (2021) o quello di Basit et al. (2024) hanno indagato l'influenza di precipitazioni e temperatura sulla vegetazione, ma focalizzandosi sul rapporto che questi hanno sull'NDVI piuttosto che sulla tipologia forestale; 
+
+Gli obiettivi dello studio sono quindi: ottenere informazioni sull'andamento a lungo termine di temperatura e precipitazioni nelle valli; sviluppare un modello per la predizione delle tipologie forestali nelle valli sulla base dei dati forniti dalla Carta Forestale d'Italia; stabilire il legame, se esistente, fra le tipologie forestali e i parametri climatici.
 
 SCOPO DEL PROGETTO E OBIETTIVI
 STATO DELL'ARTE (ARTICOLI PRECEDENTI SU INFLUENZA PRECIPITAZIONI E TEMPERATURA SULLE TIPOLOGIE DI VEGETAZIONE + MODELLO PER CLASSIFICARE)
@@ -167,7 +170,8 @@ https://link.springer.com/article/10.1007/s10750-005-1802-0
 + Current Alpine Climate (Schar et al., 1998)
 https://iacweb.ethz.ch/doc/publications/1998_Schar_AlpineClimate.pdf
 + Semi-natural grasslands of the Non Valley (Eastern Italian Alps): Agronomic and environmental value of traditional and new Alpine hay-meadow types (Scotton et al., 2014)
-https://www.sciencedirect.com/science/article/pii/S0167880914003934
++ https://www.sciencedirect.com/science/article/pii/S0167880914003934
+
 + Case study: Valle Camonica and the Adamello Park (Gerosa et al., 2013)
 https://books.google.it/books?hl=it&lr=&id=dOacDwAAQBAJ&oi=fnd&pg=PA323&dq=%22camonica+valley%22+and+%22precipitation%22&ots=EBD2H_ydzS&sig=JnGP-ADlFloO4590K_iwGVb8REs&redir_esc=y#v=onepage&q&f=false
 
@@ -179,3 +183,9 @@ https://books.google.it/books?hl=it&lr=&id=dOacDwAAQBAJ&oi=fnd&pg=PA323&dq=%22ca
 + The Forest Map of Italy (CFI2020): an updated portrait of Italian forests. Mattioli et al., 2025 https://foresta.sisef.org/contents/?id=efor4836-022
 
 + Medoid https://www.sciencedirect.com/science/article/pii/S0924271623001612
+
++ [PDF] Evaluating vegetation dynamics in the Yangtze river basin in relation to climatological parameters using remote sensing data from 2001 to 2022
+
++ From Remote Sensing to Species Distribution Modelling (De Simone et al., 2021) https://www.mdpi.com/2072-4292/13/10/1904
+
++ Assessment of vegetation dynamics under changed climate situation using geostatistical modeling (Basit et al., 2024)
