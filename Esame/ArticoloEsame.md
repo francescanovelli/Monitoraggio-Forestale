@@ -122,12 +122,8 @@ I dati territoriali provangono dalla digitalizzazione delle valli con il softwar
 
 # METODI
 SPIEGAZIONE DETTAGLIATA DEL PROCEDIMENTO DEL CODICE
+SPIEGAZIONE DEL MODELLO
 
-SVILUPPO INTERFACCIA UTENTE
-+ anno
-+ valle
-+ palette
-+ tipologia di vegetazione o tutta
 
 ### Medoid
 An assessment approach for pixel-based image composites (Francini et al.,2023)
@@ -192,3 +188,12 @@ https://books.google.it/books?hl=it&lr=&id=dOacDwAAQBAJ&oi=fnd&pg=PA323&dq=%22ca
 + From Remote Sensing to Species Distribution Modelling (De Simone et al., 2021) https://www.mdpi.com/2072-4292/13/10/1904
 
 + Assessment of vegetation dynamics under changed climate situation using geostatistical modeling (Basit et al., 2024)
+
+
+
+SVILUPPO INTERFACCIA UTENTE
++ anno
++ valle
++ palette
++ tipologia di vegetazione o tutta
+
