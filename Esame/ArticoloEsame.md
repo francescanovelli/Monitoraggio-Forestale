@@ -45,9 +45,7 @@ Le precipitazioni nella regione alpina sono un parametro climatico particolarmen
 Nella zona umida settentrionale, le medie annuali eccedono i 2000 mm per anno in varie località; nella zona umida meridionale nella regione del Friuli, i valori di precipitazione raggiungono i 3000 mm per anno in alcuni punti, mentre un valore intorno ai 2500 mm per anni è osservato nella valle delle Centovalli in Ticino (Schar et al., 1998).
 
 
-# MATERIALI
-## Area di studio
-
+# AREA DI STUDIO
 L'area di studio comprende sette valli che sono state scelte come area campione.
 
 Le valli corrispondono a tre valli in Piemonte (Valle Stura, Val di Susa e Val Grande), una valle in Lombardia (Valle Camonica), una valle in Trentino-Alto Adige (Val di Non), una valle in Veneto (Val di Zoldo) e una valle in Friuli-Venezia-Giulia (Alta valle del Tagliamento). La scelta di queste valli è stata dettata dalla volontà di studiare aree distribuite in tutto l'arco alpino e con due orientamenti principali: sono infatti state selezionate tre valli disposte con orientamento nord-sud (Val Grande, Valle Camonica e Val di Non) e quattro valli disposte con orientamento est-ovest (Valle Stura, Val di Susa, Val di Zoldo e Alta valle del Tagliamento). In questo modo, è stato possibile confrontare i dati di precipitazione e temperatura sia in funzione dei settori alpini, che in funzione dell'orientamento delle valli.
@@ -99,8 +97,8 @@ https://www.unitus.it/wp-content/uploads/2023/10/1_cadorelongaronesezoldo.pdf
 TABELLA ALTITUDINE MEDIA DELLE VALLI, ESPOSIZIONE, ETC. --> DEM SU GEE
 EVENTUALMENTE MODIFICARE GRAFICO QUOTA
 
-## Dataset
-### Dati climatici
+# DATI
+## Dati climatici
 
 I dati climatici sono stati presi da TerraClimate, un dataset mensile ad alta risoluzione spaziale (1/24°,~4-km) relativo alle condizioni climatiche globali, che copre il periodo dal 1958 fino ad oggi, disponibile su Google Earth Engine.
 
@@ -109,13 +107,18 @@ TerraClimate usa un'interpolazione assistita climaticamente, combinando le norma
 TerraClimate è ad accesso pubblico posizionato in una repository dell'università di Idaho’s Northwest Knowledge Network; i dati sono aggiornati periodicamente una volta che il dato dell'anno è diventato disponibile (Abatzoglou et al., 2018).
 
 
-### Dati sulla distribuzione delle tipologie di vegetazione
+## Carta Forestale Italiana
 I dati di base della distribuzione delle tipologie di vegetazione nelle valli area di studio provengono, invece, dalla Carta Forestale Italiana.
 
-La Carta Forestale Italiana nasce per creare una mappatura e una classificazione delle superfici forestali a livello nazionale, per disporre di informazioni affidabili sugli ecosistemi forestali. Queste informazioni servono per adeguarsi a degli standard internazionali, in modo da raggiungere gli obiettvi stategici europei e di sostenibilità economica e sociale. Si tratta di una carta multidefinizione basata sulla geometria dell’ultimo volo AGEA disponibile, a scala 1:10.000. La Carta Forestale Italiana è sta creata su due criteri: la definizione di bosco da adottare e il sistema di nomenclatura, partendo da definizioni già esistenti (Mattioli et al., 2025). 
+La Carta Forestale Italiana nasce per creare una mappatura e una classificazione delle superfici forestali a livello nazionale, per disporre di informazioni affidabili sugli ecosistemi forestali. Queste informazioni servono per adeguarsi a degli standard internazionali, in modo da raggiungere gli obiettvi stategici europei e di sostenibilità economica e sociale. Si tratta di una carta multidefinizione basata sulla geometria dell’ultimo volo AGEA disponibile, a scala 1:10.000. La Carta Forestale Italiana è sta creata su due criteri: la definizione di bosco da adottare e il sistema di nomenclatura, partendo da definizioni già esistenti 
+(Mattioli et al., 2025). 
+
+# DA RIVEDERE
   
-### Dati territoriali
+## Dati territoriali
 I dati territoriali provangono dalla digitalizzazione delle valli con il software QGIS utilizzando layer presenti sui geoportali delle regioni italiane interessate (Piemonte, Lombardia, Trentino Alto-Adige, Veneto, Friuli-Venezia-Giulia).
+
+## Dati Landsat
 
 # METODI
 SPIEGAZIONE DETTAGLIATA DEL PROCEDIMENTO DEL CODICE
