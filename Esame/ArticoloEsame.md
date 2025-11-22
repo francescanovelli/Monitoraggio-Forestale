@@ -9,6 +9,8 @@ In questo contesto, il telerilevamento satellitare è uno strumento molto import
 
 Nello specifico, Google Earth Engine (GEE; https://earthengine.google.com/) è una piattaforma cloud-based sviluppata da Google per analisi dei dati ambientali a scala planetaria: attarverso GEE scienziati, ricercatori e sviluppatori possono analizzare una vasta gamma di dati geospaziali, tramite l'accesso a varie immagini satellitari e ad altri dataset geospaziali, come il clima, la copertura e l'uso del suolo e dati terrestri (Alírio et al., 2025).
 
+Lo scopo del progetto è osservare il cambiamento delle tipologie forestali nelle valli alpine oggetto di studio in funzione della temperatura e delle precipitazioni, ma anche dell'orientamento delle valli. In letteratura, non esiste uno studio che abbia svolto la stessa indagine: sono stati analizzati quindi diversi articoli, basati su studi simili e, sulla base di quanto realizzato in questi studi precedenti, è stato costruito questo studio.
+
 SCOPO DEL PROGETTO E OBIETTIVI
 STATO DELL'ARTE (ARTICOLI PRECEDENTI SU INFLUENZA PRECIPITAZIONI E TEMPERATURA SULLE TIPOLOGIE DI VEGETAZIONE + MODELLO PER CLASSIFICARE)
 COS'È UN MODELLO
