@@ -187,9 +187,6 @@ https://books.google.it/books?hl=it&lr=&id=dOacDwAAQBAJ&oi=fnd&pg=PA323&dq=%22ca
 
 + From Remote Sensing to Species Distribution Modelling (De Simone et al., 2021) https://www.mdpi.com/2072-4292/13/10/1904
 
-+ Assessment of vegetation dynamics under changed climate situation using geostatistical modeling (Basit et al., 2024)
-
-
 
 SVILUPPO INTERFACCIA UTENTE
 + anno
