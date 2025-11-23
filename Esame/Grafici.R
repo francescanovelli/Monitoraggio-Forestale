@@ -10,3 +10,13 @@ ggplot(data = sturat, aes(x = year)) +
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
   theme_light()
+
+# Grafico precipitazioni Valle Stura
+ggplot(data = sturapr, aes(x = year, y = precip_mean_mm)) + 
+  geom_col(fill = "skyblue") +
+  geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
+  labs(title = "Precipitazioni medie annue in Valle Stura",
+       x = "Anno",
+       y = "Precipitazioni (mm)" )+
+  ylim(0, 1500)+
+  theme_light()
