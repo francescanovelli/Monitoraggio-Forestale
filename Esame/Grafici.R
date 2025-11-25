@@ -39,9 +39,9 @@ ggplot(data = sturapr, aes(x = year, y = precip_mean_mm)) +
   geom_col(fill = "skyblue") +
   geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
   annotate("text",
-           x = Inf, y = -Inf,
+           x = Inf, y = Inf,
            label = paste("Slope =", round(slope_sturapr, 3)),
-           hjust = 1.1, vjust = -0.5,
+           hjust = 1.1, vjust = 1.1,
            size = 5)+
   labs(title = "Precipitazioni medie annue in Valle Stura",
        x = "Anno",
