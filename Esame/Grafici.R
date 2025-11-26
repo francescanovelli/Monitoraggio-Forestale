@@ -369,3 +369,8 @@ g1+g2+g3+g4
 
 g1p+g2p+g3p+g4p
 (g5p+g6p)/(g7p+ plot_spacer())
+
+# GRAFICI TIPOLOGIE DI VEGETAZIONE
+# Inserire questo codice al grafico per ottenere un grafico per ogni valle
+facet_wrap(~ Nome.Valle, nrow = 2)
+# da valutare il numero di righe (nrow) e il numero di colonne (ncol)
