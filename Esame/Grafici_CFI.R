@@ -1,3 +1,8 @@
+# GRAFICI TIPOLOGIE DI VEGETAZIONE
+# Inserire questo codice al grafico per ottenere un grafico per ogni valle
+facet_wrap(~ Nome.Valle, nrow = 2)
+# da valutare il numero di righe (nrow) e il numero di colonne (ncol)
+
 library(viridis)
 
 CFI <- read.csv("classified_data_def.csv")
