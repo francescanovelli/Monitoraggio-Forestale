@@ -1,3 +1,8 @@
+# GRAFICI TIPOLOGIE DI VEGETAZIONE
+# Inserire questo codice al grafico per ottenere un grafico per ogni valle
+facet_wrap(~ Nome.Valle, nrow = 2)
+# da valutare il numero di righe (nrow) e il numero di colonne (ncol)
+
 library(ggplot2)
 library(patchwork)
 
@@ -19,12 +24,12 @@ g1 <- ggplot(data = tagt, aes(x = year)) +
   geom_smooth(aes(y = temp_min), method = 'lm', se = TRUE, color = "lightblue") +
   annotate("text",
            x = Inf, y = Inf,
-           label = paste("Slope =", round(slope_zoldotmax, 3)),
+           label = paste("Slope =", round(slope_tagtmax, 3)),
            hjust = 1.1, vjust = 1.1,,
            size = 5)+
   annotate("text",
            x = Inf, y = -Inf,
-           label = paste("Slope =", round(slope_zoldotmin, 3)),
+           label = paste("Slope =", round(slope_tagtmin, 3)),
            hjust = 1.1, vjust = -0.5,
            size = 5)+
   labs(title = "Temperature medie annue in Alta Valle del Tagliamento",
@@ -369,8 +374,3 @@ g1+g2+g3+g4
 
 g1p+g2p+g3p+g4p
 (g5p+g6p)/(g7p+ plot_spacer())
-
-# GRAFICI TIPOLOGIE DI VEGETAZIONE
-# Inserire questo codice al grafico per ottenere un grafico per ogni valle
-facet_wrap(~ Nome.Valle, nrow = 2)
-# da valutare il numero di righe (nrow) e il numero di colonne (ncol)
