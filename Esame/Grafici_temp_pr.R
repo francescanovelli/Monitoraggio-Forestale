@@ -343,8 +343,7 @@ g7 <- ggplot(data = grat, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
-  theme_light()+
-  theme(legend.position = "none")
+  theme_light()
 
 # Grafico precipitazioni Val d'Ossola
 mod_grapr <- lm(precip_mean_mm ~ year, data = grapr)
@@ -364,8 +363,6 @@ g7p <- ggplot(data = grapr, aes(x = year, y = precip_mean_mm)) +
        ylim(0, 1500)+
        theme_light()
 
-g1+g2+g3+g4
-(g5+g6)/(g7+ plot_spacer())
+g1+g2+g3+g4+g5+g6+g7 + guide_area() + plot_layout(ncol=2, guides='collect')
 
-g1p+g2p+g3p+g4p
-(g5p+g6p)/(g7p+ plot_spacer())
+g1p+g2p+g3p+g4p+g5p+g6p+g7p + guide_area() + plot_layout(ncol=2, guides='collect')
