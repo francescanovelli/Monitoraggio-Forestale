@@ -1,6 +1,60 @@
 library(ggplot2)
 library(patchwork)
 
+# VALLI
+vallipr <- read.csv("vallipr.csv")
+vallit <- read.csv("vallit.csv")
+
+# Grafico temperature Valli
+mod_vallitmax <- lm(temp_max ~ year, data = vallit)
+slope_vallitmax <- coef(mod_vallitmax)[2]
+
+mod_vallitmin <- lm(temp_min ~ year, data = vallit)
+slope_vallitmin <- coef(mod_vallitmin)[2]
+
+gv_t <- ggplot(data = vallit, aes(x = year)) + 
+  geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
+  geom_point(aes(y = temp_min, colour = "Temperatura minima")) +  
+  geom_smooth(aes(y = temp_max), method = 'lm', se = TRUE, color = "orange") +
+  geom_smooth(aes(y = temp_min), method = 'lm', se = TRUE, color = "lightblue") +
+  annotate("text",
+           x = Inf, y = Inf,
+           label = paste("Slope =", round(slope_vallitmax, 3)),
+           hjust = 1.1, vjust = 1.1,,
+           size = 5)+
+  annotate("text",
+           x = Inf, y = -Inf,
+           label = paste("Slope =", round(slope_vallitmin, 3)),
+           hjust = 1.1, vjust = -0.5,
+           size = 5)+
+  labs(title = "Temperature medie annue nelle valli",
+       x = "Anno",
+       y = "Temperatura (°C)",
+       color = "Legenda") +
+  scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  theme_light()+
+  theme(legend.position = "inside", legend.position.inside = c(0.5, 0.5))
+
+# Grafico precipitazioni Valli
+mod_vallipr <- lm(precip_mean_mm ~ year, data = vallipr)
+slope_vallipr <- coef(mod_vallipr)[2]
+
+gv_p <- ggplot(data = vallipr, aes(x = year, y = precip_mean_mm)) + 
+  geom_col(fill = "skyblue") +
+  geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
+  annotate("text",
+           x = Inf, y = Inf,
+           label = paste("Slope =", round(slope_vallipr, 3)),
+           hjust = 1.1, vjust = 1.1,
+           size = 5)+
+  labs(title = "Precipitazioni medie annue nelle valli",
+       x = "Anno",
+       y = "Precipitazioni (mm)" )+
+  ylim(0, 1500)+
+  theme_light()
+
+gv_t + gv_p
+
 # ALTA VAL TAGLIAMENTO
 tagpr <- read.csv("tagpr.csv")
 tagt <- read.csv("tagt.csv")
