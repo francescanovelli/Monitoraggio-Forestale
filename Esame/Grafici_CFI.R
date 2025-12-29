@@ -1,10 +1,4 @@
 # GRAFICI TIPOLOGIE DI VEGETAZIONE
-# Inserire questo codice al grafico per ottenere un grafico per ogni valle
-facet_wrap(~ Nome.Valle, nrow = 2)
-# da valutare il numero di righe (nrow) e il numero di colonne (ncol)
-
-library(viridis)
-
 CFI <- read.csv("classified_data_def.csv")
 
 CFI$sum <- rowSums(CFI[, c(4, 5, 6, 7, 8)])
@@ -46,5 +40,6 @@ ggplot(data = CFI, aes(x = year)) +
                                 "Latifoglie" = "yellow", 
                                 "Latifoglie Sempreverdi" = "lightgreen", 
                                 "Suolo Nudo" = "brown")) +
-facet_wrap(~ Nome.Valle, nrow = 2)  
-theme_light()
+  facet_wrap(~ Nome.Valle, ncol = 2)+  
+  theme_light()+
+  theme(legend.position = c(0.75, 0.1))
