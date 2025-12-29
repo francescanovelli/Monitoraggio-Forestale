@@ -53,7 +53,8 @@ gv_p <- ggplot(data = vallipr, aes(x = year, y = precip_mean_mm)) +
   ylim(0, 1500)+
   theme_light()
 
-gv_t + gv_p
+gv_t
+gv_p
 
 # ALTA VAL TAGLIAMENTO
 tagpr <- read.csv("tagpr.csv")
@@ -81,7 +82,7 @@ g1 <- ggplot(data = tagt, aes(x = year)) +
            label = paste("Slope =", round(slope_tagtmin, 3)),
            hjust = 1.1, vjust = -0.5,
            size = 5)+
-  labs(title = "Temperature medie annue in Alta Valle del Tagliamento",
+  labs(title = "Alta Valle del Tagliamento",
        x = "Anno",
        y = "Temperatura (°C)",
        color = "Legenda") +
@@ -101,7 +102,7 @@ g1p <- ggplot(data = tagpr, aes(x = year, y = precip_mean_mm)) +
            label = paste("Slope =", round(slope_tagpr, 3)),
            hjust = 1.1, vjust = 1.1,
            size = 5)+
-  labs(title = "Precipitazioni medie annue in Alta Valle del Tagliamento",
+  labs(title = "Alta Valle del Tagliamento",
        x = "Anno",
        y = "Precipitazioni (mm)" )+
   ylim(0, 1500)+
@@ -133,7 +134,7 @@ g2 <- ggplot(data = zoldot, aes(x = year)) +
            label = paste("Slope =", round(slope_zoldotmin, 3)),
            hjust = 1.1, vjust = -0.5,
            size = 5)+
-  labs(title = "Temperature medie annue in Val di Zoldo",
+  labs(title = "Val di Zoldo",
        x = "Anno",
        y = "Temperatura (°C)",
        color = "Legenda") +
@@ -153,7 +154,7 @@ g2p <- ggplot(data = zoldopr, aes(x = year, y = precip_mean_mm)) +
            label = paste("Slope =", round(slope_zoldopr, 3)),
            hjust = 1.1, vjust = 1.1,
            size = 5)+
-  labs(title = "Precipitazioni medie annue in Val di Zoldo",
+  labs(title = "Val di Zoldo",
        x = "Anno",
        y = "Precipitazioni (mm)" )+
   ylim(0, 1500)+
@@ -171,21 +172,21 @@ mod_nontmin <- lm(temp_min ~ year, data = nont)
 slope_nontmin <- coef(mod_nontmin)[2]
 
 g3 <- ggplot(data = nont, aes(x = year)) + 
-      geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
-      geom_point(aes(y = temp_min, colour = "Temperatura minima")) +  
-      geom_smooth(aes(y = temp_max), method = 'lm', se = TRUE, color = "orange") +
-      geom_smooth(aes(y = temp_min), method = 'lm', se = TRUE, color = "lightblue") +
-      annotate("text",
+  geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
+  geom_point(aes(y = temp_min, colour = "Temperatura minima")) +  
+  geom_smooth(aes(y = temp_max), method = 'lm', se = TRUE, color = "orange") +
+  geom_smooth(aes(y = temp_min), method = 'lm', se = TRUE, color = "lightblue") +
+  annotate("text",
            x = Inf, y = Inf,
            label = paste("Slope =", round(slope_nontmax, 3)),
            hjust = 1.1, vjust = 1.1,
            size = 5)+
-      annotate("text",
+  annotate("text",
            x = Inf, y = -Inf,
            label = paste("Slope =", round(slope_nontmin, 3)),
            hjust = 1.1, vjust = -0.5,
            size = 5)+
-      labs(title = "Temperature medie annue in Valle di Non",
+  labs(title = "Valle di Non",
        x = "Anno",
        y = "Temperatura (°C)",
        color = "Legenda") +
@@ -197,18 +198,18 @@ mod_nonpr <- lm(precip_mean_mm ~ year, data = nonpr)
 slope_nonpr <- coef(mod_nonpr)[2]
 
 g3p <-ggplot(data = nonpr, aes(x = year, y = precip_mean_mm)) + 
-      geom_col(fill = "skyblue") +
-      geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
-      annotate("text",
+  geom_col(fill = "skyblue") +
+  geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
+  annotate("text",
            x = Inf, y = Inf,
            label = paste("Slope =", round(slope_nonpr, 3)),
            hjust = 1.2, vjust = 1.6,
            size = 5)+
-     labs(title = "Precipitazioni medie annue in Valle di Non",
+  labs(title = "Valle di Non",
        x = "Anno",
        y = "Precipitazioni (mm)" )+
-     ylim(0, 1500)+
-     theme_light()
+  ylim(0, 1500)+
+  theme_light()
 
 # VAL CAMONICA
 campr <- read.csv("campr.csv")
@@ -222,21 +223,21 @@ mod_camtmin <- lm(temp_min ~ year, data = camt)
 slope_camtmin <- coef(mod_camtmin)[2]
 
 g4 <- ggplot(data = camt, aes(x = year)) + 
-      geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
-      geom_point(aes(y = temp_min, colour = "Temperatura minima")) +  
-      geom_smooth(aes(y = temp_max), method = 'lm', se = TRUE, color = "orange") +
-      geom_smooth(aes(y = temp_min), method = 'lm', se = TRUE, color = "lightblue") +
-      annotate("text",
+  geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
+  geom_point(aes(y = temp_min, colour = "Temperatura minima")) +  
+  geom_smooth(aes(y = temp_max), method = 'lm', se = TRUE, color = "orange") +
+  geom_smooth(aes(y = temp_min), method = 'lm', se = TRUE, color = "lightblue") +
+  annotate("text",
            x = Inf, y = Inf,
            label = paste("Slope =", round(slope_camtmax, 3)),
            hjust = 1.1, vjust = 1.1,
            size = 5)+
-      annotate("text",
+  annotate("text",
            x = Inf, y = -Inf,
            label = paste("Slope =", round(slope_camtmin, 3)),
            hjust = 1.1, vjust = -0.5,
            size = 5)+
-      labs(title = "Temperature medie annue in Val Camonica",
+  labs(title = "Val Camonica",
        x = "Anno",
        y = "Temperatura (°C)",
        color = "Legenda") +
@@ -249,18 +250,18 @@ mod_campr <- lm(precip_mean_mm ~ year, data = campr)
 slope_campr <- coef(mod_campr)[2]
 
 g4p <- ggplot(data = campr, aes(x = year, y = precip_mean_mm)) + 
-       geom_col(fill = "skyblue") +
-       geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
-       annotate("text",
+  geom_col(fill = "skyblue") +
+  geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
+  annotate("text",
            x = Inf, y = Inf,
            label = paste("Slope =", round(slope_campr, 3)),
            hjust = 1.2, vjust = 1.6,
            size = 5)+
-      labs(title = "Precipitazioni medie annue in Val Camonica",
+  labs(title = "Val Camonica",
        x = "Anno",
        y = "Precipitazioni (mm)" )+
-      ylim(0, 1500)+
-      theme_light()
+  ylim(0, 1500)+
+  theme_light()
 
 #VAL DI SUSA
 susapr <- read.csv("susapr.csv")
@@ -288,7 +289,7 @@ g5 <- ggplot(data = susat, aes(x = year)) +
            label = paste("Slope =", round(slope_susatmin, 3)),
            hjust = 1.1, vjust = -0.5,
            size = 5)+
-  labs(title = "Temperature medie annue in Val di Susa",
+  labs(title = "Val di Susa",
        x = "Anno",
        y = "Temperatura (°C)",
        color = "Legenda") +
@@ -308,7 +309,7 @@ g5p <- ggplot(data = susapr, aes(x = year, y = precip_mean_mm)) +
            label = paste("Slope =", round(slope_susapr, 3)),
            hjust = 1.1, vjust = 1.1,
            size = 5)+
-  labs(title = "Precipitazioni medie annue in Val di Susa",
+  labs(title = "Val di Susa",
        x = "Anno",
        y = "Precipitazioni (mm)" )+
   ylim(0, 1500)+
@@ -340,7 +341,7 @@ g6 <- ggplot(data = sturat, aes(x = year)) +
            label = paste("Slope =", round(slope_sturatmin, 3)),
            hjust = 1.1, vjust = -0.5,
            size = 5)+
-  labs(title = "Temperature medie annue in Valle Stura",
+  labs(title = "Valle Stura",
        x = "Anno",
        y = "Temperatura (°C)",
        color = "Legenda") +
@@ -360,7 +361,7 @@ g6p <- ggplot(data = sturapr, aes(x = year, y = precip_mean_mm)) +
            label = paste("Slope =", round(slope_sturapr, 3)),
            hjust = 1.2, vjust = 1.6,
            size = 5)+
-  labs(title = "Precipitazioni medie annue in Valle Stura",
+  labs(title = "Valle Stura",
        x = "Anno",
        y = "Precipitazioni (mm)" )+
   ylim(0, 1500)+
@@ -378,21 +379,21 @@ mod_gratmin <- lm(temp_min ~ year, data = grat)
 slope_gratmin <- coef(mod_gratmin)[2]
 
 g7 <- ggplot(data = grat, aes(x = year)) + 
-      geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
-      geom_point(aes(y = temp_min, colour = "Temperatura minima")) +  
-      geom_smooth(aes(y = temp_max), method = 'lm', se = TRUE, color = "orange") +
-      geom_smooth(aes(y = temp_min), method = 'lm', se = TRUE, color = "lightblue") +
-      annotate("text",
+  geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
+  geom_point(aes(y = temp_min, colour = "Temperatura minima")) +  
+  geom_smooth(aes(y = temp_max), method = 'lm', se = TRUE, color = "orange") +
+  geom_smooth(aes(y = temp_min), method = 'lm', se = TRUE, color = "lightblue") +
+  annotate("text",
            x = Inf, y = Inf,
            label = paste("Slope =", round(slope_gratmax, 3)),
            hjust = 1.1, vjust = 1.1,
            size = 5)+
-     annotate("text",
+  annotate("text",
            x = Inf, y = -Inf,
            label = paste("Slope =", round(slope_gratmin, 3)),
            hjust = 1.1, vjust = -0.5,
            size = 5)+
-    labs(title = "Temperature medie annue in Val d'Ossola",
+  labs(title = "Val d'Ossola",
        x = "Anno",
        y = "Temperatura (°C)",
        color = "Legenda") +
@@ -404,19 +405,22 @@ mod_grapr <- lm(precip_mean_mm ~ year, data = grapr)
 slope_grapr <- coef(mod_grapr)[2]
 
 g7p <- ggplot(data = grapr, aes(x = year, y = precip_mean_mm)) + 
-       geom_col(fill = "skyblue") +
-       geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
-       annotate("text",
+  geom_col(fill = "skyblue") +
+  geom_smooth(method = 'lm', se=F, color = "deepskyblue") +
+  annotate("text",
            x = Inf, y = Inf,
            label = paste("Slope =", round(slope_grapr, 3)),
            hjust = 1.2, vjust = 1.6,
            size = 5)+
-       labs(title = "Precipitazioni medie annue in Val d'Ossola",
+  labs(title = "Val d'Ossola",
        x = "Anno",
        y = "Precipitazioni (mm)" )+
-       ylim(0, 1500)+
-       theme_light()
+  ylim(0, 1500)+
+  theme_light()
 
-g1+g2+g3+g4+g5+g6+g7 + guide_area() + plot_layout(ncol=2, guides='collect')
+g1+g2+g3+g4+g5+g6+g7 + guide_area() + plot_layout(ncol=2, guides='collect') + plot_annotation(
+  title = "Temperature medie annue nelle valli alpine")
 
-g1p+g2p+g3p+g4p+g5p+g6p+g7p + guide_area() + plot_layout(ncol=2, guides='collect')
+g1p+g2p+g3p+g4p+g5p+g6p+g7p + guide_area() + plot_layout(ncol=2, guides='collect') + plot_annotation(
+  title = "Precipitazioni medie annue nelle valli alpine")
+
