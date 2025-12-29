@@ -19,6 +19,7 @@ Tag_focusT <- ggplot(tagt %>% filter(year >= max(year) - 40), aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -61,6 +62,7 @@ Oss_focusT <- ggplot(grat %>% filter(year >= max(year) - 40), aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()+
   theme(legend.position = "none")
 
