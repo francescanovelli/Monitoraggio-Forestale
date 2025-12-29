@@ -4,6 +4,13 @@ library(dplyr)
 
 CFI <- read.csv("classified_data_def.csv")
 
+CFI$sum <- rowSums(CFI[, c(4, 5, 6, 7, 8)])
+CFI$X0 <- round(((CFI$X0/CFI$sum)*100), 0)
+CFI$X1 <- round(((CFI$X1/CFI$sum)*100), 0)
+CFI$X2 <- round(((CFI$X2/CFI$sum)*100), 0)
+CFI$X3 <- round(((CFI$X3/CFI$sum)*100), 0)
+CFI$X4 <- round(((CFI$X4/CFI$sum)*100), 0)
+
 # FOCUS ALTA VAL TAGLIAMENTO
 tagpr <- read.csv("tagpr.csv")
 tagt <- read.csv("tagt.csv")
@@ -19,7 +26,7 @@ Tag_focusT <- ggplot(tagt %>% filter(year >= max(year) - 40), aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
-  ylim(-2, 16)+
+  ylim(-1, 13)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -44,6 +51,7 @@ Tag_focusV <- ggplot(CFI %>% filter(Nome.Valle == "Alta Val Tagliamento"), aes(x
                                 "Latifoglie" = "yellow", 
                                 "Latifoglie Sempreverdi" = "lightgreen", 
                                 "Suolo Nudo" = "brown")) +
+  ylim(0, 85)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -62,7 +70,7 @@ Oss_focusT <- ggplot(grat %>% filter(year >= max(year) - 40), aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
-  ylim(-2, 16)+
+  ylim(-1, 13)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -87,7 +95,9 @@ Oss_focusV <- ggplot(CFI %>% filter(Nome.Valle == "Val d'Ossola"), aes(x = year)
                                 "Latifoglie" = "yellow", 
                                 "Latifoglie Sempreverdi" = "lightgreen", 
                                 "Suolo Nudo" = "brown")) +
+  ylim(0, 85)+
   theme_light()+
   theme(legend.position = "none")
 
 (Tag_focusT+Oss_focusT)/(Tag_focusP+Oss_focusP)/(Tag_focusV+Oss_focusV)
+
