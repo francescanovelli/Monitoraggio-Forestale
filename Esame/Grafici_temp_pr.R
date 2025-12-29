@@ -33,8 +33,9 @@ gv_t <- ggplot(data = vallit, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()+
-  theme(legend.position = "inside", legend.position.inside = c(0.5, 0.5))
+  theme(legend.position = "inside", legend.position.inside = c(0.5, 0.8))
 
 # Grafico precipitazioni Valli
 mod_vallipr <- lm(precip_mean_mm ~ year, data = vallipr)
@@ -88,6 +89,7 @@ g1 <- ggplot(data = tagt, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -140,6 +142,7 @@ g2 <- ggplot(data = zoldot, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -192,7 +195,9 @@ g3 <- ggplot(data = nont, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
-  theme_light()+theme(legend.position = "none")
+  ylim(-2, 16)+
+  theme_light()+
+  theme(legend.position = "none")
 
 # Grafico precipitazioni Valle di Non
 mod_nonpr <- lm(precip_mean_mm ~ year, data = nonpr)
@@ -243,6 +248,7 @@ g4 <- ggplot(data = camt, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -295,6 +301,7 @@ g5 <- ggplot(data = susat, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -347,6 +354,7 @@ g6 <- ggplot(data = sturat, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -399,6 +407,7 @@ g7 <- ggplot(data = grat, aes(x = year)) +
        y = "Temperatura (°C)",
        color = "Legenda") +
   scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
+  ylim(-2, 16)+
   theme_light()
 
 # Grafico precipitazioni Val d'Ossola
