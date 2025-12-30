@@ -77,8 +77,8 @@ Oss_focusT <- ggplot(grat %>% filter(year >= max(year) - 40), aes(x = year)) +
 # Grafico precipitazioni Val d'Ossola
 Oss_focusP <- ggplot(grapr %>% filter(year >= max(year) - 40), aes(x = year, y = precip_mean_mm)) + 
   geom_col(fill = "skyblue") +
-  geom_smooth(method = 'lm', se=T, color = "deepskyblue") +
-  labs(title = "Precipitazioni",x = "Anno", y = "Precipitazioni (mm)" )+
+  geom_smooth(method = 'loess', se=T, color = "deepskyblue") +
+  labs(x = "Anno", y = "Precipitazioni (mm)" )+
   ylim(0, 1500)+
   theme_light()
 
