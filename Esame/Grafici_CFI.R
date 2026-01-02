@@ -8,6 +8,9 @@ CFI$X2 <- round(((CFI$X2/CFI$sum)*100), 0)
 CFI$X3 <- round(((CFI$X3/CFI$sum)*100), 0)
 CFI$X4 <- round(((CFI$X4/CFI$sum)*100), 0)
 
+CFI$Nome.Valle <- factor(CFI$Nome.Valle,
+  levels = c("Alta Val Tagliamento", "Val di Zoldo", "Val di Non", "Val Camonica", "Val di Susa", "Valle Stura", "Val d'Ossola"))
+
 ggplot(data = CFI, aes(x = year)) +
   geom_smooth(aes(y = X0, colour = "Altro"), method = "loess") +
   geom_smooth(aes(y = X1, colour = "Conifere"), method = "loess") + 
