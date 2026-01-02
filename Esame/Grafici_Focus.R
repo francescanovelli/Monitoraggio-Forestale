@@ -17,16 +17,13 @@ tagt <- read.csv("tagt.csv")
 
 # Grafico focus temperature Alta Valle del Tagliamento
 Tag_focusT <- ggplot(tagt %>% filter(year >= max(year) - 40), aes(x = year)) + 
-  geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
-  geom_point(aes(y = temp_min, colour = "Temperatura minima")) +
-  geom_smooth(aes(y = temp_max), method = 'loess', se = TRUE, color = "orange") +
+  geom_point(aes(y = temp_min), colour = "blue") +
   geom_smooth(aes(y = temp_min), method = 'loess', se = TRUE, color = "lightblue") +
   labs(title = "Alta Valle del Tagliamento",
        x = "Anno",
-       y = "Temperatura (°C)",
+       y = "Temperatura minima (°C)",
        color = "Legenda") +
-  scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
-  ylim(-1, 13)+
+  ylim(-1, 4)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -61,16 +58,13 @@ grat <- read.csv("grat.csv")
 
 # Grafico focus temperature Val d'Ossola
 Oss_focusT <- ggplot(grat %>% filter(year >= max(year) - 40), aes(x = year)) + 
-  geom_point(aes(y = temp_max, colour = "Temperatura massima"))+
-  geom_point(aes(y = temp_min, colour = "Temperatura minima")) +  
-  geom_smooth(aes(y = temp_max), method = 'loess', se = TRUE, color = "orange") +
+  geom_point(aes(y = temp_min), colour = "blue") +  
   geom_smooth(aes(y = temp_min), method = 'loess', se = TRUE, color = "lightblue") +
   labs(title = "Val d'Ossola",
        x = "Anno",
-       y = "Temperatura (°C)",
+       y = "Temperatura minima (°C)",
        color = "Legenda") +
-  scale_color_manual(values = c("Temperatura minima" = "blue", "Temperatura massima" = "red")) +
-  ylim(-1, 13)+
+  ylim(-1, 4)+
   theme_light()+
   theme(legend.position = "none")
 
@@ -100,4 +94,3 @@ Oss_focusV <- ggplot(CFI %>% filter(Nome.Valle == "Val d'Ossola"), aes(x = year)
   theme(legend.position = "none")
 
 (Tag_focusT+Oss_focusT)/(Tag_focusP+Oss_focusP)/(Tag_focusV+Oss_focusV)
-
